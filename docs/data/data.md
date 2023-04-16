@@ -8,89 +8,119 @@
 ```plantuml
 @startuml
 ' Логическая модель данных в варианте UML Class Diagram (альтернатива ER-диаграмме).
-namespace ShoppingCart {
+namespace HelloConf {
 
- class ShoppingCart
+enum AttendeeStatus
  {
+  unconfirmed
+  confirmed
+  registered
+  participated
+  cancelled
+ }
+
+ enum TopicStatus {
+    sent
+    approving
+    approved
+    rejected
+ }
+
+ class User {
   id : string
-  createDate : datetime
-  updateDate : datetime
-  customer : Customer
-  price : ShoppingCartPrice
-  cartItems : CartItem[]
+  fullName: string
+  phone: string
+  email: string
+  status: AttendeeStatus
  }
 
- class ShoppingCartPrice
- {
-  type : CartItemPrice
- }
- class CartItemPrice
- {
-  type : CartItemPriceType
+ class Listener extends User {
  }
 
- enum CartPriceType
- {
-  total
-  grandTotal
-  offeringDiscount
-  couponsDiscount
+ class Visitor extends User {
  }
 
- class CartItem
- {
-  id : string
-  quantity : int
-  offering : Offering
-  relationship : CartItemRelationShip[]
-  price : CartItemPrice[]
-  status : CartItemStatus
+ class Speaker extends User {
+    about: string
+    company: string
+    position: string
  }
 
-  class Customer
- {
-  id : string
+ class Topic {
+    title : string
+    pptFile: binary
+    createDate: date
+    speaker: Speaker
+    status: TopicStatus
+    url: string
  }
+
+ class ReviewComment {
+    comment: string
+    createdAt: datetime
+    createdBy: User
+    replyTo: ReviewComment
+ }
+
+ class Request {
+    createdAt: datetime
+    topic: Topic
+    speaker: Speaker
+ }
+
+ class Conference {
+    id: string
+    title: string
+    description: string
+    startDate: date
+    endDate: date
+ }
+
+ class Participance {
+    conference: Conference
+    user: User
+ }
+
+ class Presentation {
+    topic: Topic
+    dateTime: dateTime
+ }
+
+ class Schedule {
+    conference: Conference
+ }
+
+ class Partner {
+    name: string
+    description: string
+ }
+
+ class Feedback {
+    topic: Topic
+    author: User
+ }
+
+ ReviewComment "1" *-- "1" User
+ ReviewComment "1" *-- "0..1" ReviewComment
+
+ Request "1" o-- "*" ReviewComment
+ Request "1" *-- "1" Topic
+ Request "1" *-- "1" Speaker
+
+ Conference "1" *-- "*" Participance
+
+ Partner "*" *-- "*" Conference
+
+ Participance "1" *-- "1" User
+
+ Presentation "1" *-- "1" Conference
+ Presentation "1" *-- "1" Speaker
+
+ Schedule "1" o-- "*" Presentation
+ Schedule "1" *-- "1" Conference
+
+ Feedback "*" *-- "1" Topic
+ Feedback "1" *-- "1" User
  
- class Offering
- {
-  id : string
-  isQuantifiable : boolean
-  actionType : OfferingActionType
-  validFor : ValidFor
- }
-  
- class ProductSpecificationRef
- {
-  id : string
- }
- 
- ShoppingCart *-- "1..*" ShoppingCartPrice
- ShoppingCartPrice -- CartPriceType
- ShoppingCart *-- "*" CartItem
- CartItem *-- "*" CartItemPrice
- CartItemPrice -- CartPriceType
- CartItem *-- "1" Offering
- Offering *-- "1" ProductSpecificationRef
- Offering *-- "0..1" ProductConfiguration
- ShoppingCart *-- "1" Customer
-}
-
-namespace Ordering {
- ProductOrder *-- OrderItem
- OrderItem *-- Product
- Product *-- ProductSpecificationRef
- ProductOrder *-- Party
-}
-
-namespace ProductCatalog {
- ShoppingCart.ProductSpecificationRef ..> ProductSpecification : ref
- Ordering.ProductSpecificationRef ..> ProductSpecification : ref
-}
-
-namespace CX {
- ShoppingCart.Customer ..> Customer : ref
- Ordering.Party ..> Customer : ref
-}
 @enduml
 ```
