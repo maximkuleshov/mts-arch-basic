@@ -55,11 +55,11 @@ enum AttendeeStatus
     url: string
  }
 
- class ReviewComment {
+ class Comment {
     comment: string
     createdAt: datetime
     createdBy: User
-    replyTo: ReviewComment
+    replyTo: Comment
  }
 
  class Request {

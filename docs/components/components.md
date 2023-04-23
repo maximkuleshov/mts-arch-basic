@@ -11,40 +11,49 @@
 
 AddElementTag("microService", $shape=EightSidedShape(), $bgColor="CornflowerBlue", $fontColor="white", $legendText="microservice")
 AddElementTag("storage", $shape=RoundedBoxShape(), $bgColor="lightSkyBlue", $fontColor="white")
+AddElementTag("bus", $shape=RoundedBoxShape(), $bgColor="RoyalBlue", $fontColor="white", $legendText="Event Bus")
 
-Person(customer, "Покупатель", "B2C клиент")
+Person(listener, "Слушатель", "Посетитель конференции")
+Person(speaker, "Докладчик", "Докладчик")
+Person(reviewer, "Модератор", "Обрабатывает заявки, отвечает на комментарии")
+Person(master, "Администратор", "Создает новые конференции, осуществляет настройку параметров конференции")
 
-System_Boundary(c, "MTS Shop Lite") {
-   Container(app, "Клиентское веб-приложение", "html, JavaScript, Angular", "Портал интернет-магазина")
-   Container(offering_service, "Product Offering Service", "Java, Spring Boot", "Сервис управления продуктовым предложением", $tags = "microService")      
-   ContainerDb(offering_db, "Product Catalog", "PostgreSQL", "Хранение продуктовых предложений", $tags = "storage")
+System_Boundary(c, "HelloConf") {
+   Container(webapp, "Клиентское веб-приложение", "html, JavaScript, Angular", "Портал интернет-магазина")
+   Container(userService, "User Service", "Java, Spring Boot", "Сервис управления пользователями", $tags = "microService")      
+   ContainerDb(userServiceDb, "User Database", "PostgreSQL", "Хранение пользовательских данных", $tags = "storage")
    
-   Container(ordering_service, "Product Ordering Service", "Golang, nginx", "Сервис управления заказом", $tags = "microService")      
-   ContainerDb(ordering_db, "Order Inventory", "MySQL", "Хранение заказов", $tags = "storage")
+   Container(conferenceService, "Conference Service", "Java, Spring Boot", "Сервис управления конференциями и докладами", $tags = "microService")      
+   ContainerDb(conferenceServiceDb, "Conference Database", "PostgreSQL", "Хранение данных о конференции и докладах", $tags = "storage")
+
+   Container(commentService, "Comment Service", "Java, Spring Boot, Cassandra", "Сервис хранения комментариев", $tags = "microService")
     
-   Container(message_bus, "Message Bus", "RabbitMQ", "Транспорт для бизнес-событий")
-   Container(audit_service, "Audit Service", "C#/.NET", "Сервис аудита", $tags = "microService")      
-   Container(audit_store, "Audit Store", "Event Store", "Хранение произошедших события для аудита", $tags = "storage")
+   Container(messageBus, "Message Bus", "RabbitMQ", "Транспорт для бизнес-событий", $tags = "bus")
 }
 
-System_Ext(logistics_system, "msLogistix", "Система управления доставкой товаров.")  
+System_Ext(mtsSso, "SSO System", "Авторизация как пользователя МТС")
+System_Ext(streamingSystem, "WASD", "Стриминговая платформа")  
+System_Ext(sometubeSystem, "Video Hosting", "Платформа хостинга offline-видео")  
 
-Lay_R(offering_service, ordering_service)
-Lay_R(offering_service, logistics_system)
-Lay_D(offering_service, audit_service)
+Rel(listener, webapp, "Регистрация, получения подтверждения о регистраци и уведомлений", "HTTPS")
+Rel(speaker, webapp, "Отправка заявки на доклад, получение обратной связи", "JSON, HTTPS")
+Rel(reviewer, webapp, "Просмотр заявки, отправка обратной связи, модерация комментариев", "JSON, HTTPS")
+Rel(master, webapp, "Создание новые конференций, заполнение информации")
 
-Rel(customer, app, "Оформление заказа", "HTTPS")
-Rel(app, offering_service, "Выбор продуктов для корзины(Продукт):корзина", "JSON, HTTPS")
+Rel(webapp, conferenceService, "Работа с докладами и конференциями")
+Rel(webapp, userService, "Авторизация и регистрация")
+BiRel(webapp, commentService, "Получение и сохранение комметариев")
+Rel_L(webapp, streamingSystem, "Получение потока данных Live")
+Rel_R(webapp, sometubeSystem, "Получение видео")
 
-Rel(offering_service, message_bus, "Отправка заказа(Корзина)", "AMPQ")
-Rel(offering_service, offering_db, "Сохранение продуктового предложения(Продуктовая спецификация)", "JDBC, SQL")
+BiRel(userService, mtsSso, "Авторизация и получение основной информации")
 
-Rel(ordering_service, message_bus, "Получение заказа: Корзина", "AMPQ")
-Rel_U(audit_service, message_bus, "Получение события аудита(Событие)", "AMPQ")
+Rel_R(conferenceService, messageBus, "События модерации доклада и изменение его статуса", "AMPQ")
+BiRel(conferenceService, conferenceServiceDb, "Сохранение и редактирование данных о конференции, докладе", "Hibernate, SQL")
 
-Rel(ordering_service, ordering_db, "Сохранение заказа(Заказ)", "SQL")
-Rel(audit_service, audit_store, "Сохранение события(Событие)")
-Rel(ordering_service, logistics_system, "Доставка(Наряд на доставку):Трекинг", "JSON, HTTP")  
+BiRel(userService, userServiceDb, "Хранение расширенных данных пользователя")
+
+Rel_R(messageBus, commentService, "Получение событий жизненного цикла доклада, конференции")
 
 SHOW_LEGEND()
 @enduml
