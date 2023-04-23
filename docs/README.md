@@ -177,7 +177,10 @@ fc --> UC3
 <!-- Записи о ключевых принятых архитектурных решениях (ADR) для реализации архитектурно-значимых требований.
 Подробнее: https://confluence.mts.ru/pages/viewpage.action?pageId=421162308
 -->
-- [ADR.NNN Суть решения](adr/adr-template.md)
+- [ADR.001 Выбор хранилища для основных бизнес сущностей](adr/adr.001-storage.md)
+- [ADR.002 Выбор варианта внутреннего взаимодействия](adr/adr.002-interconnection.md)
+- [ADR.003 Выбор хранилища для комментариев](adr/adr.003-storage-comment.md)
+
 
 ### [Контекст решения](context/context.md)
 
