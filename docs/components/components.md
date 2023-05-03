@@ -20,15 +20,28 @@ Person(master, "Администратор", "Создает новые конф
 
 System_Boundary(c, "HelloConf") {
    Container(webapp, "Клиентское веб-приложение", "html, JavaScript, Angular", "Портал интернет-магазина")
-   Container(userService, "User Service", "Java, Spring Boot", "Сервис управления пользователями", $tags = "microService")      
-   ContainerDb(userServiceDb, "User Database", "PostgreSQL", "Хранение пользовательских данных", $tags = "storage")
-   
-   Container(conferenceService, "Conference Service", "Java, Spring Boot", "Сервис управления конференциями и докладами", $tags = "microService")      
-   ContainerDb(conferenceServiceDb, "Conference Database", "PostgreSQL", "Хранение данных о конференции и докладах", $tags = "storage")
 
-   Container(commentService, "Comment Service", "Java, Spring Boot, Cassandra", "Сервис хранения комментариев", $tags = "microService")
-    
+   System_Boundary(u, "UserContext") {
+      Container(userService, "User Service", "Java, Spring Boot", "Сервис управления пользователями", $tags = "microService")  
+      
+      ContainerDb(userServiceDb, "User Database", "PostgreSQL", "Хранение пользовательских данных", $tags = "storage")    
+   }
+
+   System_Boundary(cs, "ConferenceContext") {
+       Container(conferenceService, "Conference Service", "Java, Spring Boot", "Сервис управления конференциями и докладами", $tags = "microService")      
+       ContainerDb(conferenceServiceDb, "Conference Database", "PostgreSQL", "Хранение данных о конференции и докладах", $tags = "storage")
+   }
+
+       
    Container(messageBus, "Message Bus", "RabbitMQ", "Транспорт для бизнес-событий", $tags = "bus")
+
+
+   System_Boundary(sc, "SocializingContext") {
+       Container(commentService, "Comment Service", "Java, Spring Boot, Cassandra", "Сервис хранения комментариев", $tags = "microService")
+       ContainerDb(cassandra, "Social Activity Db", "Cassandra", "Хранение данных о социальных активностях пользователей", $tags = "storage")
+       Rel_D(commentService, cassandra, "22s1 dsdsd")
+   }
+
 }
 
 System_Ext(mtsSso, "SSO System", "Авторизация как пользователя МТС")
@@ -48,12 +61,12 @@ Rel_R(webapp, sometubeSystem, "Получение видео")
 
 BiRel(userService, mtsSso, "Авторизация и получение основной информации")
 
-Rel_R(conferenceService, messageBus, "События модерации доклада и изменение его статуса", "AMPQ")
+Rel_L(conferenceService, messageBus, "События модерации доклада и изменение его статуса", "AMPQ")
+Rel_R(messageBus, commentService, "Получение событий жизненного цикла доклада, конференции")
+
 BiRel(conferenceService, conferenceServiceDb, "Сохранение и редактирование данных о конференции, докладе", "Hibernate, SQL")
 
 BiRel(userService, userServiceDb, "Хранение расширенных данных пользователя")
-
-Rel_R(messageBus, commentService, "Получение событий жизненного цикла доклада, конференции")
 
 SHOW_LEGEND()
 @enduml
@@ -62,4 +75,6 @@ SHOW_LEGEND()
 ## Список компонентов
 | Компонент             | Роль/назначение                  |
 |:----------------------|:---------------------------------|
-| *Название компонента* | *Описание назначения компонента* |
+| *Сервис работы с конференциями* | *Создание конференции, работа с заявками на доклад, работа с расписанием* |
+| *Сервис работы с участниками* | *Регистрация пользователей, интеграция с SSO, уведомления о событиях* |
+| *Сервис социальной активности* | *Поддержка возможности для пользователей оставлять комментарии, реакции и ответы* |
