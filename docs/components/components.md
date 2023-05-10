@@ -43,7 +43,7 @@ System_Boundary(c, "HelloConf") {
        Container(commentWeb, "Comment/Socializing Front-End Module", "Angular/NodeJS", "Модуль социальных коммуникаций", $tags = "front")
        Container(commentService, "Comment Service", "Java, Spring Boot, Cassandra", "Сервис хранения комментариев", $tags = "microService")
        ContainerDb(cassandra, "Social Activity Db", "Cassandra", "Хранение данных о социальных активностях пользователей", $tags = "storage")
-       Rel_D(commentService, cassandra, "22s1 dsdsd")
+       Rel_D(commentService, cassandra, "")
    }
 
 }
