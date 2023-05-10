@@ -64,7 +64,7 @@ Rel_U(sms, speaker, "Получает уведомления о событиях
 LAYOUT_WITH_LEGEND()
 
 
-Person(moderator, "Moderator", "Модератор, который просматриваеи заявки, предоставляет обратную связь и управлеят расписанием")
+Person(moderator, "Модератор", "Модератор, который просматриваеи заявки, предоставляет обратную связь и управлеят расписанием")
 Person(participant, "Участник конференции", "Онлайн, Оффлайн и докладчик")
 
 System_Boundary(helloconf,"Платформа конференций HelloConf", "Современнмая платформа конференций") {
@@ -78,9 +78,6 @@ System_Ext(streaming, "Стриминговая платформа для орг
 System_Ext(sometube, "Платформа хранения записанных видео докладов")
 System_Ext(sms, "Шлюз отправки уведомлений через SMS")
 System_Ext(email, "Шлюз отправки уведомлений через Email")
-
-ContainerDb(db, "Database", "PostgresSQL", "База для хранения основных бизнес сущностей")
-ContainerDb(cassandra, "High Performance Db", "CassandraDB", "База для хранения социальной активности")
 
 Rel(userContext, conferenceContext, "Привязка докладов и расписания к пользователям-участникам")
 Rel(userContext, socializingContext, "Привязка социальной активности к пользователям-участникам")
@@ -96,11 +93,6 @@ Rel(participant, socializingContext, "Используется для комму
 Rel(moderator, socializingContext, "Используется для коммуникации")
 Rel_L(conferenceContext, sms, "Уведомление о событиях модерации")
 Rel_R(socializingContext, email, "Уведомления о события социального контекста")
-
-Rel(userContext, db, "")
-Rel(conferenceContext, db, "")
-Rel( socializingContext, cassandra, "")
-
 
 @enduml
 ```

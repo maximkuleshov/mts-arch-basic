@@ -12,6 +12,7 @@
 AddElementTag("microService", $shape=EightSidedShape(), $bgColor="CornflowerBlue", $fontColor="white", $legendText="microservice")
 AddElementTag("storage", $shape=RoundedBoxShape(), $bgColor="lightSkyBlue", $fontColor="white")
 AddElementTag("bus", $shape=RoundedBoxShape(), $bgColor="RoyalBlue", $fontColor="white", $legendText="Event Bus")
+AddElementTag("front", $shape=RoundedBoxShape(), $bgColor="navy", $fontColor="white", $legendText="Front-End Module")
 
 Person(listener, "Слушатель", "Посетитель конференции")
 Person(speaker, "Докладчик", "Докладчик")
@@ -19,24 +20,27 @@ Person(reviewer, "Модератор", "Обрабатывает заявки, �
 Person(master, "Администратор", "Создает новые конференции, осуществляет настройку параметров конференции")
 
 System_Boundary(c, "HelloConf") {
-   Container(webapp, "Клиентское веб-приложение", "html, JavaScript, Angular", "Портал интернет-магазина")
-
    System_Boundary(u, "UserContext") {
+      Container(userWeb, "User Front-End Module", "Angular/NodeJS", "Модуль управления регистрациями, участниками", $tags = "front")
       Container(userService, "User Service", "Java, Spring Boot", "Сервис управления пользователями", $tags = "microService")  
       
       ContainerDb(userServiceDb, "User Database", "PostgreSQL", "Хранение пользовательских данных", $tags = "storage")    
    }
 
    System_Boundary(cs, "ConferenceContext") {
+       Container(conferenceWeb, "Conference Front-End Module", "Angular/NodeJS", "Модуль управления конференциями и докладами", $tags ="front")
        Container(conferenceService, "Conference Service", "Java, Spring Boot", "Сервис управления конференциями и докладами", $tags = "microService")      
        ContainerDb(conferenceServiceDb, "Conference Database", "PostgreSQL", "Хранение данных о конференции и докладах", $tags = "storage")
    }
 
-       
-   Container(messageBus, "Message Bus", "RabbitMQ", "Транспорт для бизнес-событий", $tags = "bus")
+
+   System_Boundary(busContext, "Bus Context (Shared Kernel)") { 
+     Container(messageBus, "Message Bus", "RabbitMQ", "Транспорт для бизнес-событий", $tags = "bus")
+   }
 
 
    System_Boundary(sc, "SocializingContext") {
+       Container(commentWeb, "Comment/Socializing Front-End Module", "Angular/NodeJS", "Модуль социальных коммуникаций", $tags = "front")
        Container(commentService, "Comment Service", "Java, Spring Boot, Cassandra", "Сервис хранения комментариев", $tags = "microService")
        ContainerDb(cassandra, "Social Activity Db", "Cassandra", "Хранение данных о социальных активностях пользователей", $tags = "storage")
        Rel_D(commentService, cassandra, "22s1 dsdsd")
@@ -48,16 +52,16 @@ System_Ext(mtsSso, "SSO System", "Авторизация как пользова
 System_Ext(streamingSystem, "WASD", "Стриминговая платформа")  
 System_Ext(sometubeSystem, "Video Hosting", "Платформа хостинга offline-видео")  
 
-Rel(listener, webapp, "Регистрация, получения подтверждения о регистраци и уведомлений", "HTTPS")
-Rel(speaker, webapp, "Отправка заявки на доклад, получение обратной связи", "JSON, HTTPS")
-Rel(reviewer, webapp, "Просмотр заявки, отправка обратной связи, модерация комментариев", "JSON, HTTPS")
-Rel(master, webapp, "Создание новые конференций, заполнение информации")
+Rel(listener, userWeb, "Регистрация, получения подтверждения о регистраци и уведомлений", "HTTPS")
+Rel(speaker, conferenceWeb, "Отправка заявки на доклад, получение обратной связи", "JSON, HTTPS")
+Rel(reviewer, conferenceWeb, "Просмотр заявки, отправка обратной связи, модерация комментариев", "JSON, HTTPS")
+Rel(master, conferenceWeb, "Создание новые конференций, заполнение информации")
 
-Rel(webapp, conferenceService, "Работа с докладами и конференциями")
-Rel(webapp, userService, "Авторизация и регистрация")
-BiRel(webapp, commentService, "Получение и сохранение комметариев")
-Rel_L(webapp, streamingSystem, "Получение потока данных Live")
-Rel_R(webapp, sometubeSystem, "Получение видео")
+Rel(conferenceWeb, conferenceService, "Работа с докладами и конференциями")
+Rel(userWeb, userService, "Авторизация и регистрация")
+BiRel(commentWeb, commentService, "Получение и сохранение комметариев")
+Rel_L(conferenceService, streamingSystem, "Получение потока данных Live")
+Rel_R(conferenceService, sometubeSystem, "Получение видео")
 
 BiRel(userService, mtsSso, "Авторизация и получение основной информации")
 
