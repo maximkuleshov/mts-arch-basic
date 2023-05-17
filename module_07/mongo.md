@@ -16,7 +16,7 @@
     > db.authors.count()
     100000
 
-Далее нужно создать список `id` авторов для lua-скрипта нагрузочного тестироваия. Так как в отличии от прошлого примера - у нас не последовательные целые числа в качестве `id`.
+Далее нужно создать список `id` авторов для [lua-скрипта](get.lua) нагрузочного тестироваия. Так как в отличии от прошлого примера - у нас не последовательные целые числа в качестве `id`.
 Пользуемся `mongoexport`:
 
     $ mongoexport --username admin --password admin --authenticationDatabase admin --db college --collection authors -f _id --csv | tail -n +2 > oids.txt
