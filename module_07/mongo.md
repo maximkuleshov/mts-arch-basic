@@ -8,7 +8,7 @@
 Утилита грузит так, что индекс `_id` получает тип `ObjectId` -- а сервис построен так, что ожидает строку.
 Поэтому грузим во временную коллекцию и после загрузки переделываем ее в целевую `authors` через mongo shell:
 
-    > db.temp.insertMany(db.authors.find().map(function (document) { document._id = document._id + ''; return document; }))
+    > db.authors.insertMany(db.temp.find().map(function (document) { document._id = document._id + ''; return document; }))
     > db.temp.drop()
 
 Проверяем, что все работает:
