@@ -5,6 +5,7 @@ import logging
 import threading
 import gc
 import time
+from cbhomemade import CircuitBreakerHome
 
 requests.adapters.DEFAULT_RETRIES = 1
 circuit_monitor_report_interval_seconds = 1
@@ -67,8 +68,11 @@ def get_presentation(title):
     return presentation
 
 
-@circuit(failure_threshold=5, recovery_timeout=10, expected_exception=HTTPException,
-         fallback_function=author_circuit_exception)
+#@circuit(failure_threshold=5, recovery_timeout=10, expected_exception=HTTPException,
+#         fallback_function=author_circuit_exception)
+
+cb = CircuitBreakerHome("test-08")
+
 def get_author(id):
     try:
         response_author = requests.get("http://" + service_author + "/authors/" + str(id))
@@ -80,14 +84,15 @@ def get_author(id):
         print(author.last_name)
     return author
 
+get_author = cb.wrap(func=get_author, exception=HTTPException, attempts=5, timeout=10, fallback=author_circuit_exception)
 
 # Function to check status of circuit breakers
 def circuit_breaker_status():
     while True:
         time.sleep(circuit_monitor_report_interval_seconds)
         for ob in gc.get_objects():
-            if isinstance(ob, CircuitBreaker):
-                logging.warning(f'Circuit "{ob.name}" is "{ob.state}", failures: {ob.failure_count}')
+            if isinstance(ob, CircuitBreakerHome):
+                logging.warning(f'Circuit "{ob.name}" is "{ob.status}", failures: {ob.failures}')
         logging.warning('')
 
 

@@ -9,7 +9,7 @@ RUN apt-get clean && apt-get update --fix-missing && \
 COPY requirements.txt /
 RUN pip3 install -r requirements.txt
 
-COPY service_main.py circuitbreaker.py /
+COPY service_main.py circuitbreaker.py cbhomemade.py /
 
 ENTRYPOINT ["python3", "-m", "uvicorn" , "service_main:app","--host","0.0.0.0","--reload", "--port", "8083"] 
 

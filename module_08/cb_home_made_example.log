@@ -1,0 +1,1102 @@
+Attaching to service_main, service_author, service_presentation
+[33mservice_main            |[0m 2023-05-23T21:15:24.571161391Z INFO:     Will watch for changes in these directories: ['/']
+[33mservice_main            |[0m 2023-05-23T21:15:24.574967888Z INFO:     Uvicorn running on http://0.0.0.0:8083 (Press CTRL+C to quit)
+[33mservice_main            |[0m 2023-05-23T21:15:24.575566096Z INFO:     Started reloader process [1] using WatchFiles
+[33mservice_main            |[0m 2023-05-23T21:15:26.249055123Z INFO:     Started server process [8]
+[33mservice_main            |[0m 2023-05-23T21:15:26.249823881Z INFO:     Waiting for application startup.
+[33mservice_main            |[0m 2023-05-23T21:15:26.250380576Z INFO:     Application startup complete.
+[33mservice_main            |[0m 2023-05-23T21:15:27.252690004Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:27.288035972Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:28.291221638Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:28.325244659Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:29.333210641Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:29.363532540Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:30.373600129Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:30.400046946Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:31.411935956Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:31.445746576Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:32.449472860Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:32.482681313Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:33.473771585Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:33.507204518Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:34.514215650Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:34.537149539Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:35.541430689Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:35.591270981Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:36.607208241Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:36.656391766Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:37.658986588Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:37.686264930Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:38.178598308Z Moore
+[33mservice_main            |[0m 2023-05-23T21:15:38.178633622Z INFO:     172.18.0.1:57572 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 200 OK
+[33mservice_main            |[0m 2023-05-23T21:15:38.691393581Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:38.729115873Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:39.735890456Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:39.771073773Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:40.069393014Z Moore
+[33mservice_main            |[0m 2023-05-23T21:15:40.069421059Z INFO:     172.18.0.1:57580 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 200 OK
+[33mservice_main            |[0m 2023-05-23T21:15:40.775028462Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:40.792556099Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:41.795467412Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:41.824359851Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:42.522341085Z Moore
+[33mservice_main            |[0m 2023-05-23T21:15:42.522382070Z INFO:     172.18.0.1:57588 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 200 OK
+[33mservice_main            |[0m 2023-05-23T21:15:42.827405274Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:42.865934987Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:43.881084276Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:43.900697928Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:44.904475273Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:44.955071125Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:45.960369031Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:45.977326866Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:46.980568657Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:47.008206902Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:48.016555979Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:48.056024688Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:49.075090965Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:49.119599701Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:50.134494952Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:50.162914843Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:51.169272927Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:51.236658680Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:52.247298118Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:52.282635425Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:53.399482561Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:53.488520817Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:54.500947298Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:54.598482713Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:55.603042554Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:55.697982350Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:56.834221670Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:57.375739995Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:15:58.420151203Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:15:58.762796677Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:00.139860297Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:00.139940720Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:01.170395928Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:01.951574922Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:02.969195749Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:03.024607488Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:04.046904255Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:04.110179343Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:05.116998123Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:05.162743043Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:06.179469655Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:06.240954657Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:07.244620018Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[36mservice_author          |[0m 2023-05-23T21:12:20.760476871Z INFO:     Will watch for changes in these directories: ['/']
+[36mservice_author          |[0m 2023-05-23T21:12:20.763029357Z INFO:     Uvicorn running on http://0.0.0.0:8081 (Press CTRL+C to quit)
+[36mservice_author          |[0m 2023-05-23T21:12:20.765273186Z INFO:     Started reloader process [1] using WatchFiles
+[36mservice_author          |[0m 2023-05-23T21:12:21.791078220Z INFO:     Started server process [8]
+[36mservice_author          |[0m 2023-05-23T21:12:21.791602937Z INFO:     Waiting for application startup.
+[36mservice_author          |[0m 2023-05-23T21:12:21.792220012Z INFO:     Application startup complete.
+[36mservice_author          |[0m 2023-05-23T21:14:35.126381251Z INFO:     Will watch for changes in these directories: ['/']
+[36mservice_author          |[0m 2023-05-23T21:14:35.126602920Z INFO:     Uvicorn running on http://0.0.0.0:8081 (Press CTRL+C to quit)
+[36mservice_author          |[0m 2023-05-23T21:14:35.126869524Z INFO:     Started reloader process [1] using WatchFiles
+[36mservice_author          |[0m 2023-05-23T21:14:36.848247986Z INFO:     Started server process [8]
+[36mservice_author          |[0m 2023-05-23T21:14:36.848911372Z INFO:     Waiting for application startup.
+[36mservice_author          |[0m 2023-05-23T21:14:36.850034942Z INFO:     Application startup complete.
+[36mservice_author          |[0m 2023-05-23T21:15:22.462097980Z INFO:     Will watch for changes in these directories: ['/']
+[36mservice_author          |[0m 2023-05-23T21:15:22.463488992Z INFO:     Uvicorn running on http://0.0.0.0:8081 (Press CTRL+C to quit)
+[36mservice_author          |[0m 2023-05-23T21:15:22.465182797Z INFO:     Started reloader process [1] using WatchFiles
+[36mservice_author          |[0m 2023-05-23T21:15:24.695045558Z INFO:     Started server process [9]
+[36mservice_author          |[0m 2023-05-23T21:15:24.695076019Z INFO:     Waiting for application startup.
+[36mservice_author          |[0m 2023-05-23T21:15:24.695986055Z INFO:     Application startup complete.
+[36mservice_author          |[0m 2023-05-23T21:15:38.170789863Z <class 'list'>
+[36mservice_author          |[0m 2023-05-23T21:15:38.170947153Z INFO:     172.18.0.4:50796 - "GET /authors/1 HTTP/1.1" 200 OK
+[36mservice_author          |[0m 2023-05-23T21:15:40.064309904Z INFO:     172.18.0.4:50804 - "GET /authors/1 HTTP/1.1" 200 OK
+[36mservice_author          |[0m 2023-05-23T21:15:42.520447964Z INFO:     172.18.0.4:50812 - "GET /authors/1 HTTP/1.1" 200 OK
+[36mservice_author          |[0m 2023-05-23T21:16:51.791266515Z INFO:     Will watch for changes in these directories: ['/']
+[36mservice_author          |[0m 2023-05-23T21:16:51.795723792Z INFO:     Uvicorn running on http://0.0.0.0:8081 (Press CTRL+C to quit)
+[36mservice_author          |[0m 2023-05-23T21:16:51.796810604Z INFO:     Started reloader process [1] using WatchFiles
+[36mservice_author          |[0m 2023-05-23T21:16:53.270712188Z INFO:     Started server process [10]
+[36mservice_author          |[0m 2023-05-23T21:16:53.276389237Z INFO:     Waiting for application startup.
+[36mservice_author          |[0m 2023-05-23T21:16:53.277404501Z INFO:     Application startup complete.
+[36mservice_author          |[0m 2023-05-23T21:16:56.338408858Z <class 'list'>
+[36mservice_author          |[0m 2023-05-23T21:16:56.338449611Z INFO:     172.18.0.4:50886 - "GET /authors/1 HTTP/1.1" 200 OK
+[36mservice_author          |[0m 2023-05-23T21:16:57.750041423Z INFO:     172.18.0.4:50894 - "GET /authors/1 HTTP/1.1" 200 OK
+[36mservice_author          |[0m 2023-05-23T21:16:59.050585157Z INFO:     172.18.0.4:50902 - "GET /authors/1 HTTP/1.1" 200 OK
+[36mservice_author          |[0m 2023-05-23T21:17:00.522435219Z INFO:     172.18.0.4:50910 - "GET /authors/1 HTTP/1.1" 200 OK
+[33mservice_main            |[0m 2023-05-23T21:16:07.289408450Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:08.300393497Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:08.355746283Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:09.361698677Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:09.382633457Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:10.398334524Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:10.495263543Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:11.511554728Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:11.567781316Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:12.571908952Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:12.624209893Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:13.629771394Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:13.654700040Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:14.658380205Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:14.679324732Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:15.682607062Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:15.714995365Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:16.718154375Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:16.753785926Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:17.769360240Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:17.829712390Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:18.833428282Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:18.873540598Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:19.890259292Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:19.935260961Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:20.943507738Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:20.969812079Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:21.688102694Z --- Logging error ---
+[33mservice_main            |[0m 2023-05-23T21:16:21.706440417Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:21.706560550Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 174, in _new_conn
+[33mservice_main            |[0m 2023-05-23T21:16:21.706568868Z     conn = connection.create_connection(
+[33mservice_main            |[0m 2023-05-23T21:16:21.706614166Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/util/connection.py", line 72, in create_connection
+[33mservice_main            |[0m 2023-05-23T21:16:21.706620523Z     for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+[33mservice_main            |[0m 2023-05-23T21:16:21.706624021Z   File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+[33mservice_main            |[0m 2023-05-23T21:16:21.706628342Z     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+[33mservice_main            |[0m 2023-05-23T21:16:21.706724064Z socket.gaierror: [Errno -2] Name or service not known
+[33mservice_main            |[0m 2023-05-23T21:16:21.706733632Z 
+[33mservice_main            |[0m 2023-05-23T21:16:21.706737259Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:21.706740667Z 
+[33mservice_main            |[0m 2023-05-23T21:16:21.706751559Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:21.707587293Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 703, in urlopen
+[33mservice_main            |[0m 2023-05-23T21:16:21.708025012Z     httplib_response = self._make_request(
+[33mservice_main            |[0m 2023-05-23T21:16:21.708040855Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 398, in _make_request
+[33mservice_main            |[0m 2023-05-23T21:16:21.708048498Z     conn.request(method, url, **httplib_request_kw)
+[33mservice_main            |[0m 2023-05-23T21:16:21.708054603Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 239, in request
+[33mservice_main            |[0m 2023-05-23T21:16:21.708061086Z     super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+[33mservice_main            |[0m 2023-05-23T21:16:21.708067264Z   File "/usr/lib/python3.10/http/client.py", line 1282, in request
+[33mservice_main            |[0m 2023-05-23T21:16:21.708466398Z     self._send_request(method, url, body, headers, encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:21.708474397Z   File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+[33mservice_main            |[0m 2023-05-23T21:16:21.708480976Z     self.endheaders(body, encode_chunked=encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:21.708487201Z   File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+[33mservice_main            |[0m 2023-05-23T21:16:21.708493584Z     self._send_output(message_body, encode_chunked=encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:21.708499598Z   File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+[33mservice_main            |[0m 2023-05-23T21:16:21.708506048Z     self.send(msg)
+[33mservice_main            |[0m 2023-05-23T21:16:21.709183129Z   File "/usr/lib/python3.10/http/client.py", line 975, in send
+[33mservice_main            |[0m 2023-05-23T21:16:21.709199186Z     self.connect()
+[33mservice_main            |[0m 2023-05-23T21:16:21.709204698Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 205, in connect
+[33mservice_main            |[0m 2023-05-23T21:16:21.709231207Z     conn = self._new_conn()
+[33mservice_main            |[0m 2023-05-23T21:16:21.709244994Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 186, in _new_conn
+[33mservice_main            |[0m 2023-05-23T21:16:21.710677062Z     raise NewConnectionError(
+[33mservice_main            |[0m 2023-05-23T21:16:21.710859024Z urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3d10bab7c0>: Failed to establish a new connection: [Errno -2] Name or service not known
+[33mservice_main            |[0m 2023-05-23T21:16:21.711021910Z 
+[33mservice_main            |[0m 2023-05-23T21:16:21.711036459Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:21.712451046Z 
+[33mservice_main            |[0m 2023-05-23T21:16:21.713584792Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:21.713618396Z   File "/usr/local/lib/python3.10/dist-packages/requests/adapters.py", line 489, in send
+[32mservice_presentation    |[0m 2023-05-23T21:12:20.762276096Z INFO:     Will watch for changes in these directories: ['/']
+[32mservice_presentation    |[0m 2023-05-23T21:12:20.763808740Z INFO:     Uvicorn running on http://0.0.0.0:8082 (Press CTRL+C to quit)
+[32mservice_presentation    |[0m 2023-05-23T21:12:20.766215876Z INFO:     Started reloader process [1] using WatchFiles
+[32mservice_presentation    |[0m 2023-05-23T21:12:21.787424416Z INFO:     Started server process [8]
+[32mservice_presentation    |[0m 2023-05-23T21:12:21.787795935Z INFO:     Waiting for application startup.
+[32mservice_presentation    |[0m 2023-05-23T21:12:21.789669027Z INFO:     Application startup complete.
+[32mservice_presentation    |[0m 2023-05-23T21:14:35.323710852Z INFO:     Will watch for changes in these directories: ['/']
+[32mservice_presentation    |[0m 2023-05-23T21:14:35.324439307Z INFO:     Uvicorn running on http://0.0.0.0:8082 (Press CTRL+C to quit)
+[32mservice_presentation    |[0m 2023-05-23T21:14:35.325211985Z INFO:     Started reloader process [1] using WatchFiles
+[32mservice_presentation    |[0m 2023-05-23T21:14:36.797950006Z INFO:     Started server process [9]
+[32mservice_presentation    |[0m 2023-05-23T21:14:36.797985018Z INFO:     Waiting for application startup.
+[32mservice_presentation    |[0m 2023-05-23T21:14:36.798464965Z INFO:     Application startup complete.
+[32mservice_presentation    |[0m 2023-05-23T21:15:22.905800930Z INFO:     Will watch for changes in these directories: ['/']
+[32mservice_presentation    |[0m 2023-05-23T21:15:22.905980781Z INFO:     Uvicorn running on http://0.0.0.0:8082 (Press CTRL+C to quit)
+[32mservice_presentation    |[0m 2023-05-23T21:15:22.906116190Z INFO:     Started reloader process [1] using WatchFiles
+[32mservice_presentation    |[0m 2023-05-23T21:15:24.762756985Z INFO:     Started server process [8]
+[32mservice_presentation    |[0m 2023-05-23T21:15:24.767050864Z INFO:     Waiting for application startup.
+[32mservice_presentation    |[0m 2023-05-23T21:15:24.768272443Z INFO:     Application startup complete.
+[32mservice_presentation    |[0m 2023-05-23T21:15:38.163622125Z <class 'list'>
+[32mservice_presentation    |[0m 2023-05-23T21:15:38.163672453Z INFO:     172.18.0.4:42048 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[32mservice_presentation    |[0m 2023-05-23T21:15:40.053889991Z INFO:     172.18.0.4:42056 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[32mservice_presentation    |[0m 2023-05-23T21:15:42.509764917Z INFO:     172.18.0.4:42064 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[32mservice_presentation    |[0m 2023-05-23T21:16:21.634310686Z INFO:     172.18.0.4:42072 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[32mservice_presentation    |[0m 2023-05-23T21:16:24.378112154Z INFO:     172.18.0.4:42078 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[32mservice_presentation    |[0m 2023-05-23T21:16:25.954055023Z INFO:     172.18.0.4:42084 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[32mservice_presentation    |[0m 2023-05-23T21:16:27.291932168Z INFO:     172.18.0.4:42090 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[32mservice_presentation    |[0m 2023-05-23T21:16:28.480508945Z INFO:     172.18.0.4:42096 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[32mservice_presentation    |[0m 2023-05-23T21:16:29.533757165Z INFO:     172.18.0.4:42102 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[32mservice_presentation    |[0m 2023-05-23T21:16:32.510288334Z INFO:     172.18.0.4:42108 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[32mservice_presentation    |[0m 2023-05-23T21:16:33.823449013Z INFO:     172.18.0.4:42114 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[32mservice_presentation    |[0m 2023-05-23T21:16:39.875500768Z INFO:     172.18.0.4:42120 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[32mservice_presentation    |[0m 2023-05-23T21:16:42.415852594Z INFO:     172.18.0.4:42126 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[32mservice_presentation    |[0m 2023-05-23T21:16:43.621345512Z INFO:     172.18.0.4:42132 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[32mservice_presentation    |[0m 2023-05-23T21:16:56.322566797Z INFO:     172.18.0.4:42138 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[32mservice_presentation    |[0m 2023-05-23T21:16:57.740020257Z INFO:     172.18.0.4:42146 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[32mservice_presentation    |[0m 2023-05-23T21:16:59.041570524Z INFO:     172.18.0.4:42154 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[32mservice_presentation    |[0m 2023-05-23T21:17:00.511471229Z INFO:     172.18.0.4:42162 - "GET /presentations/First%20Presentation HTTP/1.1" 200 OK
+[33mservice_main            |[0m 2023-05-23T21:16:21.713628591Z     resp = conn.urlopen(
+[33mservice_main            |[0m 2023-05-23T21:16:21.714191375Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 787, in urlopen
+[33mservice_main            |[0m 2023-05-23T21:16:21.714278948Z     retries = retries.increment(
+[33mservice_main            |[0m 2023-05-23T21:16:21.714294053Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/util/retry.py", line 592, in increment
+[33mservice_main            |[0m 2023-05-23T21:16:21.714301389Z     raise MaxRetryError(_pool, url, error or ResponseError(cause))
+[33mservice_main            |[0m 2023-05-23T21:16:21.715906830Z urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d10bab7c0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[33mservice_main            |[0m 2023-05-23T21:16:21.715937914Z 
+[33mservice_main            |[0m 2023-05-23T21:16:21.715944847Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:21.715950397Z 
+[33mservice_main            |[0m 2023-05-23T21:16:21.715955504Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:21.715960715Z   File "/./service_main.py", line 78, in get_author
+[33mservice_main            |[0m 2023-05-23T21:16:21.715966177Z     response_author = requests.get("http://" + service_author + "/authors/" + str(id))
+[33mservice_main            |[0m 2023-05-23T21:16:21.715971969Z   File "/usr/local/lib/python3.10/dist-packages/requests/api.py", line 73, in get
+[33mservice_main            |[0m 2023-05-23T21:16:21.715977596Z     return request("get", url, params=params, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:21.715983026Z   File "/usr/local/lib/python3.10/dist-packages/requests/api.py", line 59, in request
+[33mservice_main            |[0m 2023-05-23T21:16:21.715988559Z     return session.request(method=method, url=url, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:21.715993941Z   File "/usr/local/lib/python3.10/dist-packages/requests/sessions.py", line 587, in request
+[33mservice_main            |[0m 2023-05-23T21:16:21.716000383Z     resp = self.send(prep, **send_kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:21.716021517Z   File "/usr/local/lib/python3.10/dist-packages/requests/sessions.py", line 701, in send
+[33mservice_main            |[0m 2023-05-23T21:16:21.716028879Z     r = adapter.send(request, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:21.716034408Z   File "/usr/local/lib/python3.10/dist-packages/requests/adapters.py", line 565, in send
+[33mservice_main            |[0m 2023-05-23T21:16:21.716062236Z     raise ConnectionError(e, request=request)
+[33mservice_main            |[0m 2023-05-23T21:16:21.716069032Z requests.exceptions.ConnectionError: HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d10bab7c0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[33mservice_main            |[0m 2023-05-23T21:16:21.716075930Z 
+[33mservice_main            |[0m 2023-05-23T21:16:21.716081002Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:21.716086257Z 
+[33mservice_main            |[0m 2023-05-23T21:16:21.716091191Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:21.716096291Z   File "/usr/lib/python3.10/logging/__init__.py", line 1100, in emit
+[33mservice_main            |[0m 2023-05-23T21:16:21.716101963Z     msg = self.format(record)
+[33mservice_main            |[0m 2023-05-23T21:16:21.716528945Z   File "/usr/lib/python3.10/logging/__init__.py", line 943, in format
+[33mservice_main            |[0m 2023-05-23T21:16:21.716545970Z     return fmt.format(record)
+[33mservice_main            |[0m 2023-05-23T21:16:21.716552399Z   File "/usr/lib/python3.10/logging/__init__.py", line 678, in format
+[33mservice_main            |[0m 2023-05-23T21:16:21.716558008Z     record.message = record.getMessage()
+[33mservice_main            |[0m 2023-05-23T21:16:21.716563399Z   File "/usr/lib/python3.10/logging/__init__.py", line 368, in getMessage
+[33mservice_main            |[0m 2023-05-23T21:16:21.716568974Z     msg = msg % self.args
+[33mservice_main            |[0m 2023-05-23T21:16:21.716574176Z TypeError: not all arguments converted during string formatting
+[33mservice_main            |[0m 2023-05-23T21:16:21.716579434Z Call stack:
+[33mservice_main            |[0m 2023-05-23T21:16:21.753508775Z   File "<string>", line 1, in <module>
+[33mservice_main            |[0m 2023-05-23T21:16:21.753606770Z   File "/usr/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+[33mservice_main            |[0m 2023-05-23T21:16:21.753652135Z     exitcode = _main(fd, parent_sentinel)
+[33mservice_main            |[0m 2023-05-23T21:16:21.753657377Z   File "/usr/lib/python3.10/multiprocessing/spawn.py", line 129, in _main
+[33mservice_main            |[0m 2023-05-23T21:16:21.753661254Z     return self._bootstrap(parent_sentinel)
+[33mservice_main            |[0m 2023-05-23T21:16:21.753664706Z   File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+[33mservice_main            |[0m 2023-05-23T21:16:21.753668353Z     self.run()
+[33mservice_main            |[0m 2023-05-23T21:16:21.753671721Z   File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+[33mservice_main            |[0m 2023-05-23T21:16:21.753675246Z     self._target(*self._args, **self._kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:21.753890033Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/_subprocess.py", line 76, in subprocess_started
+[33mservice_main            |[0m 2023-05-23T21:16:21.754032565Z     target(sockets=sockets)
+[33mservice_main            |[0m 2023-05-23T21:16:21.754048686Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/server.py", line 60, in run
+[33mservice_main            |[0m 2023-05-23T21:16:21.754055829Z     return asyncio.run(self.serve(sockets=sockets))
+[33mservice_main            |[0m 2023-05-23T21:16:21.754061592Z   File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+[33mservice_main            |[0m 2023-05-23T21:16:21.754067920Z     return loop.run_until_complete(main)
+[33mservice_main            |[0m 2023-05-23T21:16:21.754088134Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete
+[33mservice_main            |[0m 2023-05-23T21:16:21.754120715Z     self.run_forever()
+[33mservice_main            |[0m 2023-05-23T21:16:21.754126485Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 600, in run_forever
+[33mservice_main            |[0m 2023-05-23T21:16:21.754130179Z     self._run_once()
+[33mservice_main            |[0m 2023-05-23T21:16:21.754133563Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 1896, in _run_once
+[33mservice_main            |[0m 2023-05-23T21:16:21.754137036Z     handle._run()
+[33mservice_main            |[0m 2023-05-23T21:16:21.754140346Z   File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+[33mservice_main            |[0m 2023-05-23T21:16:21.754143818Z     self._context.run(self._callback, *self._args)
+[33mservice_main            |[0m 2023-05-23T21:16:21.754147183Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/httptools_impl.py", line 419, in run_asgi
+[33mservice_main            |[0m 2023-05-23T21:16:21.754150819Z     result = await app(  # type: ignore[func-returns-value]
+[33mservice_main            |[0m 2023-05-23T21:16:21.754156198Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:21.754162340Z     return await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:21.754166942Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/applications.py", line 271, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:21.754170533Z     await super().__call__(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:21.754173859Z   File "/usr/local/lib/python3.10/dist-packages/starlette/applications.py", line 118, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:21.754177365Z     await self.middleware_stack(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:21.754206444Z   File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 162, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:21.754212815Z     await self.app(scope, receive, _send)
+[33mservice_main            |[0m 2023-05-23T21:16:21.754218515Z   File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/exceptions.py", line 68, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:21.754224153Z     await self.app(scope, receive, sender)
+[33mservice_main            |[0m 2023-05-23T21:16:21.754227643Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:21.754231216Z     await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:21.754234540Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 706, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:21.754238073Z     await route.handle(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:21.754241350Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 276, in handle
+[33mservice_main            |[0m 2023-05-23T21:16:21.754244847Z     await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:21.754248133Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 66, in app
+[33mservice_main            |[0m 2023-05-23T21:16:21.754251612Z     response = await func(request)
+[33mservice_main            |[0m 2023-05-23T21:16:21.754254889Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 237, in app
+[33mservice_main            |[0m 2023-05-23T21:16:21.754258399Z     raw_response = await run_endpoint_function(
+[33mservice_main            |[0m 2023-05-23T21:16:21.754281572Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 163, in run_endpoint_function
+[33mservice_main            |[0m 2023-05-23T21:16:21.754287116Z     return await dependant.call(**values)
+[33mservice_main            |[0m 2023-05-23T21:16:21.754290625Z   File "/./service_main.py", line 110, in read_presentation
+[33mservice_main            |[0m 2023-05-23T21:16:21.754294851Z     author = get_author(presentation.author_id)
+[33mservice_main            |[0m 2023-05-23T21:16:21.754300293Z   File "/./cbhomemade.py", line 34, in wrapper
+[33mservice_main            |[0m 2023-05-23T21:16:21.754305303Z     result = self.func(*args, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:21.754339801Z   File "/./service_main.py", line 80, in get_author
+[33mservice_main            |[0m 2023-05-23T21:16:21.754349629Z     logging.warning(">>> Error Connecting:", errc)
+[33mservice_main            |[0m 2023-05-23T21:16:21.754936254Z Message: '>>> Error Connecting:'
+[33mservice_main            |[0m 2023-05-23T21:16:21.755018935Z Arguments: (ConnectionError(MaxRetryError("HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d10bab7c0>: Failed to establish a new connection: [Errno -2] Name or service not known'))")),)
+[33mservice_main            |[0m 2023-05-23T21:16:21.756442144Z INFO:     172.18.0.1:57596 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 500 Internal Server Error
+[33mservice_main            |[0m 2023-05-23T21:16:21.974307301Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 1
+[33mservice_main            |[0m 2023-05-23T21:16:21.990502017Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:22.998971669Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 1
+[33mservice_main            |[0m 2023-05-23T21:16:23.016595220Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:24.020472450Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 1
+[33mservice_main            |[0m 2023-05-23T21:16:24.038127429Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:24.395577835Z --- Logging error ---
+[33mservice_main            |[0m 2023-05-23T21:16:24.396707595Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:24.396736602Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 174, in _new_conn
+[33mservice_main            |[0m 2023-05-23T21:16:24.396741787Z     conn = connection.create_connection(
+[33mservice_main            |[0m 2023-05-23T21:16:24.396745224Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/util/connection.py", line 72, in create_connection
+[33mservice_main            |[0m 2023-05-23T21:16:24.396760680Z     for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+[33mservice_main            |[0m 2023-05-23T21:16:24.396769044Z   File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+[33mservice_main            |[0m 2023-05-23T21:16:24.396828068Z     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+[33mservice_main            |[0m 2023-05-23T21:16:24.396834295Z socket.gaierror: [Errno -2] Name or service not known
+[33mservice_main            |[0m 2023-05-23T21:16:24.396837713Z 
+[33mservice_main            |[0m 2023-05-23T21:16:24.396840945Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:24.396844282Z 
+[33mservice_main            |[0m 2023-05-23T21:16:24.396847406Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:24.397382632Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 703, in urlopen
+[33mservice_main            |[0m 2023-05-23T21:16:24.397418051Z     httplib_response = self._make_request(
+[33mservice_main            |[0m 2023-05-23T21:16:24.397422849Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 398, in _make_request
+[33mservice_main            |[0m 2023-05-23T21:16:24.397426462Z     conn.request(method, url, **httplib_request_kw)
+[33mservice_main            |[0m 2023-05-23T21:16:24.397430582Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 239, in request
+[33mservice_main            |[0m 2023-05-23T21:16:24.397434074Z     super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+[33mservice_main            |[0m 2023-05-23T21:16:24.397437864Z   File "/usr/lib/python3.10/http/client.py", line 1282, in request
+[33mservice_main            |[0m 2023-05-23T21:16:24.397443375Z     self._send_request(method, url, body, headers, encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:24.397462052Z   File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+[33mservice_main            |[0m 2023-05-23T21:16:24.397468535Z     self.endheaders(body, encode_chunked=encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:24.397471826Z   File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+[33mservice_main            |[0m 2023-05-23T21:16:24.397475125Z     self._send_output(message_body, encode_chunked=encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:24.397478333Z   File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+[33mservice_main            |[0m 2023-05-23T21:16:24.397481704Z     self.send(msg)
+[33mservice_main            |[0m 2023-05-23T21:16:24.397484839Z   File "/usr/lib/python3.10/http/client.py", line 975, in send
+[33mservice_main            |[0m 2023-05-23T21:16:24.397488104Z     self.connect()
+[33mservice_main            |[0m 2023-05-23T21:16:24.397491170Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 205, in connect
+[33mservice_main            |[0m 2023-05-23T21:16:24.397494599Z     conn = self._new_conn()
+[33mservice_main            |[0m 2023-05-23T21:16:24.397497701Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 186, in _new_conn
+[33mservice_main            |[0m 2023-05-23T21:16:24.397501025Z     raise NewConnectionError(
+[33mservice_main            |[0m 2023-05-23T21:16:24.397504212Z urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3d100b8b80>: Failed to establish a new connection: [Errno -2] Name or service not known
+[33mservice_main            |[0m 2023-05-23T21:16:24.397508326Z 
+[33mservice_main            |[0m 2023-05-23T21:16:24.397511366Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:24.397514596Z 
+[33mservice_main            |[0m 2023-05-23T21:16:24.397517655Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:24.398110272Z   File "/usr/local/lib/python3.10/dist-packages/requests/adapters.py", line 489, in send
+[33mservice_main            |[0m 2023-05-23T21:16:24.398130626Z     resp = conn.urlopen(
+[33mservice_main            |[0m 2023-05-23T21:16:24.398134887Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 787, in urlopen
+[33mservice_main            |[0m 2023-05-23T21:16:24.398138453Z     retries = retries.increment(
+[33mservice_main            |[0m 2023-05-23T21:16:24.398141599Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/util/retry.py", line 592, in increment
+[33mservice_main            |[0m 2023-05-23T21:16:24.398144963Z     raise MaxRetryError(_pool, url, error or ResponseError(cause))
+[33mservice_main            |[0m 2023-05-23T21:16:24.398159839Z urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d100b8b80>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[33mservice_main            |[0m 2023-05-23T21:16:24.398165260Z 
+[33mservice_main            |[0m 2023-05-23T21:16:24.398170184Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:24.398256350Z 
+[33mservice_main            |[0m 2023-05-23T21:16:24.398299201Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:24.406216027Z   File "/./service_main.py", line 78, in get_author
+[33mservice_main            |[0m 2023-05-23T21:16:24.406249451Z     response_author = requests.get("http://" + service_author + "/authors/" + str(id))
+[33mservice_main            |[0m 2023-05-23T21:16:24.406266800Z   File "/usr/local/lib/python3.10/dist-packages/requests/api.py", line 73, in get
+[33mservice_main            |[0m 2023-05-23T21:16:24.406277536Z     return request("get", url, params=params, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:24.406281222Z   File "/usr/local/lib/python3.10/dist-packages/requests/api.py", line 59, in request
+[33mservice_main            |[0m 2023-05-23T21:16:24.406284732Z     return session.request(method=method, url=url, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:24.406355912Z   File "/usr/local/lib/python3.10/dist-packages/requests/sessions.py", line 587, in request
+[33mservice_main            |[0m 2023-05-23T21:16:24.406365978Z     resp = self.send(prep, **send_kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:24.406369676Z   File "/usr/local/lib/python3.10/dist-packages/requests/sessions.py", line 701, in send
+[33mservice_main            |[0m 2023-05-23T21:16:24.406373049Z     r = adapter.send(request, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:24.406376160Z   File "/usr/local/lib/python3.10/dist-packages/requests/adapters.py", line 565, in send
+[33mservice_main            |[0m 2023-05-23T21:16:24.406379620Z     raise ConnectionError(e, request=request)
+[33mservice_main            |[0m 2023-05-23T21:16:24.406384113Z requests.exceptions.ConnectionError: HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d100b8b80>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[33mservice_main            |[0m 2023-05-23T21:16:24.406868505Z 
+[33mservice_main            |[0m 2023-05-23T21:16:24.406882816Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:24.406889258Z 
+[33mservice_main            |[0m 2023-05-23T21:16:24.407087019Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:24.408120252Z   File "/usr/lib/python3.10/logging/__init__.py", line 1100, in emit
+[33mservice_main            |[0m 2023-05-23T21:16:24.408171483Z     msg = self.format(record)
+[33mservice_main            |[0m 2023-05-23T21:16:24.408179248Z   File "/usr/lib/python3.10/logging/__init__.py", line 943, in format
+[33mservice_main            |[0m 2023-05-23T21:16:24.408183204Z     return fmt.format(record)
+[33mservice_main            |[0m 2023-05-23T21:16:24.408186273Z   File "/usr/lib/python3.10/logging/__init__.py", line 678, in format
+[33mservice_main            |[0m 2023-05-23T21:16:24.408189616Z     record.message = record.getMessage()
+[33mservice_main            |[0m 2023-05-23T21:16:24.408193420Z   File "/usr/lib/python3.10/logging/__init__.py", line 368, in getMessage
+[33mservice_main            |[0m 2023-05-23T21:16:24.408214630Z     msg = msg % self.args
+[33mservice_main            |[0m 2023-05-23T21:16:24.408310848Z TypeError: not all arguments converted during string formatting
+[33mservice_main            |[0m 2023-05-23T21:16:24.408323467Z Call stack:
+[33mservice_main            |[0m 2023-05-23T21:16:24.410557179Z   File "<string>", line 1, in <module>
+[33mservice_main            |[0m 2023-05-23T21:16:24.410740252Z   File "/usr/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+[33mservice_main            |[0m 2023-05-23T21:16:24.410757157Z     exitcode = _main(fd, parent_sentinel)
+[33mservice_main            |[0m 2023-05-23T21:16:24.410764094Z   File "/usr/lib/python3.10/multiprocessing/spawn.py", line 129, in _main
+[33mservice_main            |[0m 2023-05-23T21:16:24.410769821Z     return self._bootstrap(parent_sentinel)
+[33mservice_main            |[0m 2023-05-23T21:16:24.410854955Z   File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+[33mservice_main            |[0m 2023-05-23T21:16:24.410894073Z     self.run()
+[33mservice_main            |[0m 2023-05-23T21:16:24.411644270Z   File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+[33mservice_main            |[0m 2023-05-23T21:16:24.411670431Z     self._target(*self._args, **self._kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:24.411738213Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/_subprocess.py", line 76, in subprocess_started
+[33mservice_main            |[0m 2023-05-23T21:16:24.411751243Z     target(sockets=sockets)
+[33mservice_main            |[0m 2023-05-23T21:16:24.411773402Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/server.py", line 60, in run
+[33mservice_main            |[0m 2023-05-23T21:16:24.411780075Z     return asyncio.run(self.serve(sockets=sockets))
+[33mservice_main            |[0m 2023-05-23T21:16:24.412720004Z   File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+[33mservice_main            |[0m 2023-05-23T21:16:24.412746501Z     return loop.run_until_complete(main)
+[33mservice_main            |[0m 2023-05-23T21:16:24.413289655Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete
+[33mservice_main            |[0m 2023-05-23T21:16:24.413307218Z     self.run_forever()
+[33mservice_main            |[0m 2023-05-23T21:16:24.413456015Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 600, in run_forever
+[33mservice_main            |[0m 2023-05-23T21:16:24.413472955Z     self._run_once()
+[33mservice_main            |[0m 2023-05-23T21:16:24.413483597Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 1896, in _run_once
+[33mservice_main            |[0m 2023-05-23T21:16:24.413492625Z     handle._run()
+[33mservice_main            |[0m 2023-05-23T21:16:24.415529437Z   File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+[33mservice_main            |[0m 2023-05-23T21:16:24.415593899Z     self._context.run(self._callback, *self._args)
+[33mservice_main            |[0m 2023-05-23T21:16:24.415607560Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/httptools_impl.py", line 419, in run_asgi
+[33mservice_main            |[0m 2023-05-23T21:16:24.415614574Z     result = await app(  # type: ignore[func-returns-value]
+[33mservice_main            |[0m 2023-05-23T21:16:24.415619954Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:24.415652505Z     return await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:24.415658843Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/applications.py", line 271, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:24.415664578Z     await super().__call__(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:24.415813909Z   File "/usr/local/lib/python3.10/dist-packages/starlette/applications.py", line 118, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:24.415826090Z     await self.middleware_stack(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:24.415832143Z   File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 162, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:24.415837771Z     await self.app(scope, receive, _send)
+[33mservice_main            |[0m 2023-05-23T21:16:24.415842700Z   File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/exceptions.py", line 68, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:24.415848278Z     await self.app(scope, receive, sender)
+[33mservice_main            |[0m 2023-05-23T21:16:24.415853277Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:24.415858775Z     await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:24.415863733Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 706, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:24.415869199Z     await route.handle(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:24.415874193Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 276, in handle
+[33mservice_main            |[0m 2023-05-23T21:16:24.415879606Z     await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:24.415884516Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 66, in app
+[33mservice_main            |[0m 2023-05-23T21:16:24.415889893Z     response = await func(request)
+[33mservice_main            |[0m 2023-05-23T21:16:24.415910084Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 237, in app
+[33mservice_main            |[0m 2023-05-23T21:16:24.415917560Z     raw_response = await run_endpoint_function(
+[33mservice_main            |[0m 2023-05-23T21:16:24.419137750Z INFO:     172.18.0.1:57602 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 500 Internal Server Error
+[33mservice_main            |[0m 2023-05-23T21:16:24.427569715Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 163, in run_endpoint_function
+[33mservice_main            |[0m 2023-05-23T21:16:24.427609767Z     return await dependant.call(**values)
+[33mservice_main            |[0m 2023-05-23T21:16:24.427617893Z   File "/./service_main.py", line 110, in read_presentation
+[33mservice_main            |[0m 2023-05-23T21:16:24.427624253Z     author = get_author(presentation.author_id)
+[33mservice_main            |[0m 2023-05-23T21:16:24.427630043Z   File "/./cbhomemade.py", line 34, in wrapper
+[33mservice_main            |[0m 2023-05-23T21:16:24.427635932Z     result = self.func(*args, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:24.427641161Z   File "/./service_main.py", line 80, in get_author
+[33mservice_main            |[0m 2023-05-23T21:16:24.427646948Z     logging.warning(">>> Error Connecting:", errc)
+[33mservice_main            |[0m 2023-05-23T21:16:24.427653558Z Message: '>>> Error Connecting:'
+[33mservice_main            |[0m 2023-05-23T21:16:24.427659621Z Arguments: (ConnectionError(MaxRetryError("HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d100b8b80>: Failed to establish a new connection: [Errno -2] Name or service not known'))")),)
+[33mservice_main            |[0m 2023-05-23T21:16:25.043412257Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 2
+[33mservice_main            |[0m 2023-05-23T21:16:25.060346531Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:25.977022522Z --- Logging error ---
+[33mservice_main            |[0m 2023-05-23T21:16:25.978631041Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:25.979279948Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 174, in _new_conn
+[33mservice_main            |[0m 2023-05-23T21:16:25.979304721Z     conn = connection.create_connection(
+[33mservice_main            |[0m 2023-05-23T21:16:25.979957379Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/util/connection.py", line 72, in create_connection
+[33mservice_main            |[0m 2023-05-23T21:16:25.979985529Z     for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+[33mservice_main            |[0m 2023-05-23T21:16:25.980066548Z   File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+[33mservice_main            |[0m 2023-05-23T21:16:25.980081462Z     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+[33mservice_main            |[0m 2023-05-23T21:16:25.981300909Z socket.gaierror: [Errno -2] Name or service not known
+[33mservice_main            |[0m 2023-05-23T21:16:25.981652746Z 
+[33mservice_main            |[0m 2023-05-23T21:16:25.981676262Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:25.981691324Z 
+[33mservice_main            |[0m 2023-05-23T21:16:25.982570326Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:25.983420097Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 703, in urlopen
+[33mservice_main            |[0m 2023-05-23T21:16:25.983441521Z     httplib_response = self._make_request(
+[33mservice_main            |[0m 2023-05-23T21:16:25.983583636Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 398, in _make_request
+[33mservice_main            |[0m 2023-05-23T21:16:25.983595861Z     conn.request(method, url, **httplib_request_kw)
+[33mservice_main            |[0m 2023-05-23T21:16:25.984538946Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 239, in request
+[33mservice_main            |[0m 2023-05-23T21:16:25.984594981Z     super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+[33mservice_main            |[0m 2023-05-23T21:16:25.984689107Z   File "/usr/lib/python3.10/http/client.py", line 1282, in request
+[33mservice_main            |[0m 2023-05-23T21:16:25.984701086Z     self._send_request(method, url, body, headers, encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:25.984704896Z   File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+[33mservice_main            |[0m 2023-05-23T21:16:25.984708353Z     self.endheaders(body, encode_chunked=encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:25.984711586Z   File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+[33mservice_main            |[0m 2023-05-23T21:16:25.984714751Z     self._send_output(message_body, encode_chunked=encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:25.984717795Z   File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+[33mservice_main            |[0m 2023-05-23T21:16:25.984720998Z     self.send(msg)
+[33mservice_main            |[0m 2023-05-23T21:16:25.984724016Z   File "/usr/lib/python3.10/http/client.py", line 975, in send
+[33mservice_main            |[0m 2023-05-23T21:16:25.984727222Z     self.connect()
+[33mservice_main            |[0m 2023-05-23T21:16:25.984730170Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 205, in connect
+[33mservice_main            |[0m 2023-05-23T21:16:25.984748154Z     conn = self._new_conn()
+[33mservice_main            |[0m 2023-05-23T21:16:25.984972668Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 186, in _new_conn
+[33mservice_main            |[0m 2023-05-23T21:16:25.984994156Z     raise NewConnectionError(
+[33mservice_main            |[0m 2023-05-23T21:16:25.985679000Z urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3d10baab90>: Failed to establish a new connection: [Errno -2] Name or service not known
+[33mservice_main            |[0m 2023-05-23T21:16:25.986331556Z 
+[33mservice_main            |[0m 2023-05-23T21:16:25.987092945Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:25.987109305Z 
+[33mservice_main            |[0m 2023-05-23T21:16:25.987112886Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:25.987495279Z   File "/usr/local/lib/python3.10/dist-packages/requests/adapters.py", line 489, in send
+[33mservice_main            |[0m 2023-05-23T21:16:25.987521090Z     resp = conn.urlopen(
+[33mservice_main            |[0m 2023-05-23T21:16:25.987698402Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 787, in urlopen
+[33mservice_main            |[0m 2023-05-23T21:16:25.987711945Z     retries = retries.increment(
+[33mservice_main            |[0m 2023-05-23T21:16:25.988683591Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/util/retry.py", line 592, in increment
+[33mservice_main            |[0m 2023-05-23T21:16:25.988707810Z     raise MaxRetryError(_pool, url, error or ResponseError(cause))
+[33mservice_main            |[0m 2023-05-23T21:16:25.988916931Z urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d10baab90>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[33mservice_main            |[0m 2023-05-23T21:16:25.988933515Z 
+[33mservice_main            |[0m 2023-05-23T21:16:25.988939207Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:25.988944459Z 
+[33mservice_main            |[0m 2023-05-23T21:16:25.990189770Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:25.990414880Z   File "/./service_main.py", line 78, in get_author
+[33mservice_main            |[0m 2023-05-23T21:16:25.990469162Z     response_author = requests.get("http://" + service_author + "/authors/" + str(id))
+[33mservice_main            |[0m 2023-05-23T21:16:25.991367504Z   File "/usr/local/lib/python3.10/dist-packages/requests/api.py", line 73, in get
+[33mservice_main            |[0m 2023-05-23T21:16:25.992322406Z     return request("get", url, params=params, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:25.992457801Z   File "/usr/local/lib/python3.10/dist-packages/requests/api.py", line 59, in request
+[33mservice_main            |[0m 2023-05-23T21:16:25.992473918Z     return session.request(method=method, url=url, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:25.992480821Z   File "/usr/local/lib/python3.10/dist-packages/requests/sessions.py", line 587, in request
+[33mservice_main            |[0m 2023-05-23T21:16:25.992486409Z     resp = self.send(prep, **send_kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:25.992491480Z   File "/usr/local/lib/python3.10/dist-packages/requests/sessions.py", line 701, in send
+[33mservice_main            |[0m 2023-05-23T21:16:25.992496795Z     r = adapter.send(request, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:25.992501266Z   File "/usr/local/lib/python3.10/dist-packages/requests/adapters.py", line 565, in send
+[33mservice_main            |[0m 2023-05-23T21:16:25.992526605Z     raise ConnectionError(e, request=request)
+[33mservice_main            |[0m 2023-05-23T21:16:25.993115253Z requests.exceptions.ConnectionError: HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d10baab90>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[33mservice_main            |[0m 2023-05-23T21:16:25.993278785Z 
+[33mservice_main            |[0m 2023-05-23T21:16:25.993292397Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:25.993299678Z 
+[33mservice_main            |[0m 2023-05-23T21:16:25.993304828Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:26.005025000Z   File "/usr/lib/python3.10/logging/__init__.py", line 1100, in emit
+[33mservice_main            |[0m 2023-05-23T21:16:26.005351553Z     msg = self.format(record)
+[33mservice_main            |[0m 2023-05-23T21:16:26.005358266Z   File "/usr/lib/python3.10/logging/__init__.py", line 943, in format
+[33mservice_main            |[0m 2023-05-23T21:16:26.005361994Z     return fmt.format(record)
+[33mservice_main            |[0m 2023-05-23T21:16:26.005365323Z   File "/usr/lib/python3.10/logging/__init__.py", line 678, in format
+[33mservice_main            |[0m 2023-05-23T21:16:26.005368813Z     record.message = record.getMessage()
+[33mservice_main            |[0m 2023-05-23T21:16:26.005372141Z   File "/usr/lib/python3.10/logging/__init__.py", line 368, in getMessage
+[33mservice_main            |[0m 2023-05-23T21:16:26.005375499Z     msg = msg % self.args
+[33mservice_main            |[0m 2023-05-23T21:16:26.005378609Z TypeError: not all arguments converted during string formatting
+[33mservice_main            |[0m 2023-05-23T21:16:26.005381887Z Call stack:
+[33mservice_main            |[0m 2023-05-23T21:16:26.006468177Z   File "<string>", line 1, in <module>
+[33mservice_main            |[0m 2023-05-23T21:16:26.006490998Z   File "/usr/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+[33mservice_main            |[0m 2023-05-23T21:16:26.006495177Z     exitcode = _main(fd, parent_sentinel)
+[33mservice_main            |[0m 2023-05-23T21:16:26.006499508Z   File "/usr/lib/python3.10/multiprocessing/spawn.py", line 129, in _main
+[33mservice_main            |[0m 2023-05-23T21:16:26.006505021Z     return self._bootstrap(parent_sentinel)
+[33mservice_main            |[0m 2023-05-23T21:16:26.006648712Z   File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+[33mservice_main            |[0m 2023-05-23T21:16:26.006664022Z     self.run()
+[33mservice_main            |[0m 2023-05-23T21:16:26.006671157Z   File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+[33mservice_main            |[0m 2023-05-23T21:16:26.006677474Z     self._target(*self._args, **self._kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:26.007174498Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/_subprocess.py", line 76, in subprocess_started
+[33mservice_main            |[0m 2023-05-23T21:16:26.007199915Z     target(sockets=sockets)
+[33mservice_main            |[0m 2023-05-23T21:16:26.007949134Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/server.py", line 60, in run
+[33mservice_main            |[0m 2023-05-23T21:16:26.007967911Z     return asyncio.run(self.serve(sockets=sockets))
+[33mservice_main            |[0m 2023-05-23T21:16:26.008287453Z   File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+[33mservice_main            |[0m 2023-05-23T21:16:26.008305352Z     return loop.run_until_complete(main)
+[33mservice_main            |[0m 2023-05-23T21:16:26.008362274Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete
+[33mservice_main            |[0m 2023-05-23T21:16:26.010059931Z     self.run_forever()
+[33mservice_main            |[0m 2023-05-23T21:16:26.010181306Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 600, in run_forever
+[33mservice_main            |[0m 2023-05-23T21:16:26.010188855Z     self._run_once()
+[33mservice_main            |[0m 2023-05-23T21:16:26.010193866Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 1896, in _run_once
+[33mservice_main            |[0m 2023-05-23T21:16:26.010199268Z     handle._run()
+[33mservice_main            |[0m 2023-05-23T21:16:26.011404305Z   File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+[33mservice_main            |[0m 2023-05-23T21:16:26.011448549Z     self._context.run(self._callback, *self._args)
+[33mservice_main            |[0m 2023-05-23T21:16:26.012147993Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/httptools_impl.py", line 419, in run_asgi
+[33mservice_main            |[0m 2023-05-23T21:16:26.012170366Z     result = await app(  # type: ignore[func-returns-value]
+[33mservice_main            |[0m 2023-05-23T21:16:26.012245111Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:26.012253125Z     return await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:26.012871066Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/applications.py", line 271, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:26.012893175Z     await super().__call__(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:26.015063932Z INFO:     172.18.0.1:57608 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 500 Internal Server Error
+[33mservice_main            |[0m 2023-05-23T21:16:26.015465391Z   File "/usr/local/lib/python3.10/dist-packages/starlette/applications.py", line 118, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:26.015483379Z     await self.middleware_stack(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:26.015490318Z   File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 162, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:26.015496276Z     await self.app(scope, receive, _send)
+[33mservice_main            |[0m 2023-05-23T21:16:26.015917680Z   File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/exceptions.py", line 68, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:26.015934636Z     await self.app(scope, receive, sender)
+[33mservice_main            |[0m 2023-05-23T21:16:26.015942247Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:26.015948653Z     await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:26.015954085Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 706, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:26.015959655Z     await route.handle(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:26.015965096Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 276, in handle
+[33mservice_main            |[0m 2023-05-23T21:16:26.015970999Z     await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:26.015976053Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 66, in app
+[33mservice_main            |[0m 2023-05-23T21:16:26.015981322Z     response = await func(request)
+[33mservice_main            |[0m 2023-05-23T21:16:26.016704557Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 237, in app
+[33mservice_main            |[0m 2023-05-23T21:16:26.016721357Z     raw_response = await run_endpoint_function(
+[33mservice_main            |[0m 2023-05-23T21:16:26.016726913Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 163, in run_endpoint_function
+[33mservice_main            |[0m 2023-05-23T21:16:26.016732280Z     return await dependant.call(**values)
+[33mservice_main            |[0m 2023-05-23T21:16:26.016765662Z   File "/./service_main.py", line 110, in read_presentation
+[33mservice_main            |[0m 2023-05-23T21:16:26.016784035Z     author = get_author(presentation.author_id)
+[33mservice_main            |[0m 2023-05-23T21:16:26.016790275Z   File "/./cbhomemade.py", line 34, in wrapper
+[33mservice_main            |[0m 2023-05-23T21:16:26.016795552Z     result = self.func(*args, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:26.019180817Z   File "/./service_main.py", line 80, in get_author
+[33mservice_main            |[0m 2023-05-23T21:16:26.019336371Z     logging.warning(">>> Error Connecting:", errc)
+[33mservice_main            |[0m 2023-05-23T21:16:26.019344553Z Message: '>>> Error Connecting:'
+[33mservice_main            |[0m 2023-05-23T21:16:26.019381165Z Arguments: (ConnectionError(MaxRetryError("HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d10baab90>: Failed to establish a new connection: [Errno -2] Name or service not known'))")),)
+[33mservice_main            |[0m 2023-05-23T21:16:26.084274788Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 3
+[33mservice_main            |[0m 2023-05-23T21:16:26.112673379Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:27.117240107Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 3
+[33mservice_main            |[0m 2023-05-23T21:16:27.136653631Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:27.307744494Z --- Logging error ---
+[33mservice_main            |[0m 2023-05-23T21:16:27.309600672Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:27.310109893Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 174, in _new_conn
+[33mservice_main            |[0m 2023-05-23T21:16:27.310130313Z     conn = connection.create_connection(
+[33mservice_main            |[0m 2023-05-23T21:16:27.310924663Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/util/connection.py", line 72, in create_connection
+[33mservice_main            |[0m 2023-05-23T21:16:27.310953715Z     for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+[33mservice_main            |[0m 2023-05-23T21:16:27.310962569Z   File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+[33mservice_main            |[0m 2023-05-23T21:16:27.311043345Z     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+[33mservice_main            |[0m 2023-05-23T21:16:27.311053519Z socket.gaierror: [Errno -2] Name or service not known
+[33mservice_main            |[0m 2023-05-23T21:16:27.311368918Z 
+[33mservice_main            |[0m 2023-05-23T21:16:27.311412523Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:27.311423570Z 
+[33mservice_main            |[0m 2023-05-23T21:16:27.312279015Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:27.313262998Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 703, in urlopen
+[33mservice_main            |[0m 2023-05-23T21:16:27.313292291Z     httplib_response = self._make_request(
+[33mservice_main            |[0m 2023-05-23T21:16:27.314341341Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 398, in _make_request
+[33mservice_main            |[0m 2023-05-23T21:16:27.314373457Z     conn.request(method, url, **httplib_request_kw)
+[33mservice_main            |[0m 2023-05-23T21:16:27.314545650Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 239, in request
+[33mservice_main            |[0m 2023-05-23T21:16:27.314563470Z     super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+[33mservice_main            |[0m 2023-05-23T21:16:27.314637153Z   File "/usr/lib/python3.10/http/client.py", line 1282, in request
+[33mservice_main            |[0m 2023-05-23T21:16:27.314643853Z     self._send_request(method, url, body, headers, encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:27.315015395Z   File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+[33mservice_main            |[0m 2023-05-23T21:16:27.315033416Z     self.endheaders(body, encode_chunked=encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:27.315940705Z   File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+[33mservice_main            |[0m 2023-05-23T21:16:27.315996237Z     self._send_output(message_body, encode_chunked=encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:27.316716609Z   File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+[33mservice_main            |[0m 2023-05-23T21:16:27.316736060Z     self.send(msg)
+[33mservice_main            |[0m 2023-05-23T21:16:27.317034295Z   File "/usr/lib/python3.10/http/client.py", line 975, in send
+[33mservice_main            |[0m 2023-05-23T21:16:27.317050126Z     self.connect()
+[33mservice_main            |[0m 2023-05-23T21:16:27.317517758Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 205, in connect
+[33mservice_main            |[0m 2023-05-23T21:16:27.317534042Z     conn = self._new_conn()
+[33mservice_main            |[0m 2023-05-23T21:16:27.318581042Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 186, in _new_conn
+[33mservice_main            |[0m 2023-05-23T21:16:27.318599946Z     raise NewConnectionError(
+[33mservice_main            |[0m 2023-05-23T21:16:27.319342489Z urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3d100b98d0>: Failed to establish a new connection: [Errno -2] Name or service not known
+[33mservice_main            |[0m 2023-05-23T21:16:27.319389111Z 
+[33mservice_main            |[0m 2023-05-23T21:16:27.319398469Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:27.319466878Z 
+[33mservice_main            |[0m 2023-05-23T21:16:27.319474361Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:27.319481605Z   File "/usr/local/lib/python3.10/dist-packages/requests/adapters.py", line 489, in send
+[33mservice_main            |[0m 2023-05-23T21:16:27.319487193Z     resp = conn.urlopen(
+[33mservice_main            |[0m 2023-05-23T21:16:27.319821138Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 787, in urlopen
+[33mservice_main            |[0m 2023-05-23T21:16:27.319890255Z     retries = retries.increment(
+[33mservice_main            |[0m 2023-05-23T21:16:27.320560610Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/util/retry.py", line 592, in increment
+[33mservice_main            |[0m 2023-05-23T21:16:27.320620359Z     raise MaxRetryError(_pool, url, error or ResponseError(cause))
+[33mservice_main            |[0m 2023-05-23T21:16:27.322261255Z urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d100b98d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[33mservice_main            |[0m 2023-05-23T21:16:27.323741302Z 
+[33mservice_main            |[0m 2023-05-23T21:16:27.323775899Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:27.323857143Z 
+[33mservice_main            |[0m 2023-05-23T21:16:27.324267669Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:27.325139661Z   File "/./service_main.py", line 78, in get_author
+[33mservice_main            |[0m 2023-05-23T21:16:27.325222490Z     response_author = requests.get("http://" + service_author + "/authors/" + str(id))
+[33mservice_main            |[0m 2023-05-23T21:16:27.325229754Z   File "/usr/local/lib/python3.10/dist-packages/requests/api.py", line 73, in get
+[33mservice_main            |[0m 2023-05-23T21:16:27.325233569Z     return request("get", url, params=params, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:27.325236946Z   File "/usr/local/lib/python3.10/dist-packages/requests/api.py", line 59, in request
+[33mservice_main            |[0m 2023-05-23T21:16:27.325240370Z     return session.request(method=method, url=url, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:27.325243557Z   File "/usr/local/lib/python3.10/dist-packages/requests/sessions.py", line 587, in request
+[33mservice_main            |[0m 2023-05-23T21:16:27.325246822Z     resp = self.send(prep, **send_kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:27.325250031Z   File "/usr/local/lib/python3.10/dist-packages/requests/sessions.py", line 701, in send
+[33mservice_main            |[0m 2023-05-23T21:16:27.325253313Z     r = adapter.send(request, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:27.325257945Z   File "/usr/local/lib/python3.10/dist-packages/requests/adapters.py", line 565, in send
+[33mservice_main            |[0m 2023-05-23T21:16:27.325261378Z     raise ConnectionError(e, request=request)
+[33mservice_main            |[0m 2023-05-23T21:16:27.325677091Z requests.exceptions.ConnectionError: HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d100b98d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[33mservice_main            |[0m 2023-05-23T21:16:27.327273980Z 
+[33mservice_main            |[0m 2023-05-23T21:16:27.327323325Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:27.327333089Z 
+[33mservice_main            |[0m 2023-05-23T21:16:27.328345957Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:27.329902289Z   File "/usr/lib/python3.10/logging/__init__.py", line 1100, in emit
+[33mservice_main            |[0m 2023-05-23T21:16:27.329939656Z     msg = self.format(record)
+[33mservice_main            |[0m 2023-05-23T21:16:27.330693270Z   File "/usr/lib/python3.10/logging/__init__.py", line 943, in format
+[33mservice_main            |[0m 2023-05-23T21:16:27.330716741Z     return fmt.format(record)
+[33mservice_main            |[0m 2023-05-23T21:16:27.338231781Z   File "/usr/lib/python3.10/logging/__init__.py", line 678, in format
+[33mservice_main            |[0m 2023-05-23T21:16:27.338268377Z     record.message = record.getMessage()
+[33mservice_main            |[0m 2023-05-23T21:16:27.338276790Z   File "/usr/lib/python3.10/logging/__init__.py", line 368, in getMessage
+[33mservice_main            |[0m 2023-05-23T21:16:27.338283509Z     msg = msg % self.args
+[33mservice_main            |[0m 2023-05-23T21:16:27.338289164Z TypeError: not all arguments converted during string formatting
+[33mservice_main            |[0m 2023-05-23T21:16:27.339538174Z Call stack:
+[33mservice_main            |[0m 2023-05-23T21:16:27.343746595Z   File "<string>", line 1, in <module>
+[33mservice_main            |[0m 2023-05-23T21:16:27.344658836Z   File "/usr/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+[33mservice_main            |[0m 2023-05-23T21:16:27.344923119Z     exitcode = _main(fd, parent_sentinel)
+[33mservice_main            |[0m 2023-05-23T21:16:27.344938540Z   File "/usr/lib/python3.10/multiprocessing/spawn.py", line 129, in _main
+[33mservice_main            |[0m 2023-05-23T21:16:27.344945743Z     return self._bootstrap(parent_sentinel)
+[33mservice_main            |[0m 2023-05-23T21:16:27.344951056Z   File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+[33mservice_main            |[0m 2023-05-23T21:16:27.344957048Z     self.run()
+[33mservice_main            |[0m 2023-05-23T21:16:27.344962117Z   File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+[33mservice_main            |[0m 2023-05-23T21:16:27.345266002Z     self._target(*self._args, **self._kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:27.345733017Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/_subprocess.py", line 76, in subprocess_started
+[33mservice_main            |[0m 2023-05-23T21:16:27.345743009Z     target(sockets=sockets)
+[33mservice_main            |[0m 2023-05-23T21:16:27.345749404Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/server.py", line 60, in run
+[33mservice_main            |[0m 2023-05-23T21:16:27.345755009Z     return asyncio.run(self.serve(sockets=sockets))
+[33mservice_main            |[0m 2023-05-23T21:16:27.346737484Z   File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+[33mservice_main            |[0m 2023-05-23T21:16:27.346746126Z     return loop.run_until_complete(main)
+[33mservice_main            |[0m 2023-05-23T21:16:27.346757347Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete
+[33mservice_main            |[0m 2023-05-23T21:16:27.346764394Z     self.run_forever()
+[33mservice_main            |[0m 2023-05-23T21:16:27.348128197Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 600, in run_forever
+[33mservice_main            |[0m 2023-05-23T21:16:27.348143146Z     self._run_once()
+[33mservice_main            |[0m 2023-05-23T21:16:27.348149767Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 1896, in _run_once
+[33mservice_main            |[0m 2023-05-23T21:16:27.348264526Z     handle._run()
+[33mservice_main            |[0m 2023-05-23T21:16:27.348271617Z   File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+[33mservice_main            |[0m 2023-05-23T21:16:27.348278215Z     self._context.run(self._callback, *self._args)
+[33mservice_main            |[0m 2023-05-23T21:16:27.348284565Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/httptools_impl.py", line 419, in run_asgi
+[33mservice_main            |[0m 2023-05-23T21:16:27.348290766Z     result = await app(  # type: ignore[func-returns-value]
+[33mservice_main            |[0m 2023-05-23T21:16:27.348296374Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:27.348302007Z     return await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:27.348307702Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/applications.py", line 271, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:27.348313547Z     await super().__call__(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:27.348319133Z   File "/usr/local/lib/python3.10/dist-packages/starlette/applications.py", line 118, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:27.349232088Z     await self.middleware_stack(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:27.349256331Z   File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 162, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:27.349265120Z     await self.app(scope, receive, _send)
+[33mservice_main            |[0m 2023-05-23T21:16:27.349271469Z   File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/exceptions.py", line 68, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:27.349277746Z     await self.app(scope, receive, sender)
+[33mservice_main            |[0m 2023-05-23T21:16:27.349758781Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:27.350193551Z     await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:27.350215016Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 706, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:27.350221810Z     await route.handle(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:27.350226759Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 276, in handle
+[33mservice_main            |[0m 2023-05-23T21:16:27.350231902Z     await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:27.350236867Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 66, in app
+[33mservice_main            |[0m 2023-05-23T21:16:27.350242496Z     response = await func(request)
+[33mservice_main            |[0m 2023-05-23T21:16:27.350248025Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 237, in app
+[33mservice_main            |[0m 2023-05-23T21:16:27.350253547Z     raw_response = await run_endpoint_function(
+[33mservice_main            |[0m 2023-05-23T21:16:27.351110943Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 163, in run_endpoint_function
+[33mservice_main            |[0m 2023-05-23T21:16:27.351136358Z     return await dependant.call(**values)
+[33mservice_main            |[0m 2023-05-23T21:16:27.351469083Z   File "/./service_main.py", line 110, in read_presentation
+[33mservice_main            |[0m 2023-05-23T21:16:27.351739183Z     author = get_author(presentation.author_id)
+[33mservice_main            |[0m 2023-05-23T21:16:27.351984747Z   File "/./cbhomemade.py", line 34, in wrapper
+[33mservice_main            |[0m 2023-05-23T21:16:27.352144607Z     result = self.func(*args, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:27.352151652Z   File "/./service_main.py", line 80, in get_author
+[33mservice_main            |[0m 2023-05-23T21:16:27.352157148Z     logging.warning(">>> Error Connecting:", errc)
+[33mservice_main            |[0m 2023-05-23T21:16:27.352163131Z Message: '>>> Error Connecting:'
+[33mservice_main            |[0m 2023-05-23T21:16:27.352168653Z Arguments: (ConnectionError(MaxRetryError("HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d100b98d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))")),)
+[33mservice_main            |[0m 2023-05-23T21:16:27.356091664Z INFO:     172.18.0.1:57614 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 500 Internal Server Error
+[33mservice_main            |[0m 2023-05-23T21:16:28.147969526Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 4
+[33mservice_main            |[0m 2023-05-23T21:16:28.163563501Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:28.494560647Z --- Logging error ---
+[33mservice_main            |[0m 2023-05-23T21:16:28.496463729Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:28.496589946Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 174, in _new_conn
+[33mservice_main            |[0m 2023-05-23T21:16:28.496600099Z     conn = connection.create_connection(
+[33mservice_main            |[0m 2023-05-23T21:16:28.496603759Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/util/connection.py", line 72, in create_connection
+[33mservice_main            |[0m 2023-05-23T21:16:28.496607160Z     for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+[33mservice_main            |[0m 2023-05-23T21:16:28.496610339Z   File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+[33mservice_main            |[0m 2023-05-23T21:16:28.496613488Z     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+[33mservice_main            |[0m 2023-05-23T21:16:28.497024131Z socket.gaierror: [Errno -2] Name or service not known
+[33mservice_main            |[0m 2023-05-23T21:16:28.497043261Z 
+[33mservice_main            |[0m 2023-05-23T21:16:28.497086796Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:28.497095597Z 
+[33mservice_main            |[0m 2023-05-23T21:16:28.497099220Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:28.497163353Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 703, in urlopen
+[33mservice_main            |[0m 2023-05-23T21:16:28.497172997Z     httplib_response = self._make_request(
+[33mservice_main            |[0m 2023-05-23T21:16:28.497406911Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 398, in _make_request
+[33mservice_main            |[0m 2023-05-23T21:16:28.497422031Z     conn.request(method, url, **httplib_request_kw)
+[33mservice_main            |[0m 2023-05-23T21:16:28.497553769Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 239, in request
+[33mservice_main            |[0m 2023-05-23T21:16:28.497567167Z     super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+[33mservice_main            |[0m 2023-05-23T21:16:28.497574099Z   File "/usr/lib/python3.10/http/client.py", line 1282, in request
+[33mservice_main            |[0m 2023-05-23T21:16:28.497580071Z     self._send_request(method, url, body, headers, encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:28.497585864Z   File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+[33mservice_main            |[0m 2023-05-23T21:16:28.497591479Z     self.endheaders(body, encode_chunked=encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:28.497647606Z   File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+[33mservice_main            |[0m 2023-05-23T21:16:28.497660337Z     self._send_output(message_body, encode_chunked=encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:28.497884458Z   File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+[33mservice_main            |[0m 2023-05-23T21:16:28.497899382Z     self.send(msg)
+[33mservice_main            |[0m 2023-05-23T21:16:28.497906274Z   File "/usr/lib/python3.10/http/client.py", line 975, in send
+[33mservice_main            |[0m 2023-05-23T21:16:28.497912466Z     self.connect()
+[33mservice_main            |[0m 2023-05-23T21:16:28.497917923Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 205, in connect
+[33mservice_main            |[0m 2023-05-23T21:16:28.497923993Z     conn = self._new_conn()
+[33mservice_main            |[0m 2023-05-23T21:16:28.498079977Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 186, in _new_conn
+[33mservice_main            |[0m 2023-05-23T21:16:28.498112093Z     raise NewConnectionError(
+[33mservice_main            |[0m 2023-05-23T21:16:28.498119236Z urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3d100ba7a0>: Failed to establish a new connection: [Errno -2] Name or service not known
+[33mservice_main            |[0m 2023-05-23T21:16:28.498125348Z 
+[33mservice_main            |[0m 2023-05-23T21:16:28.498130371Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:28.498135394Z 
+[33mservice_main            |[0m 2023-05-23T21:16:28.498140393Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:28.498762142Z   File "/usr/local/lib/python3.10/dist-packages/requests/adapters.py", line 489, in send
+[33mservice_main            |[0m 2023-05-23T21:16:28.498778290Z     resp = conn.urlopen(
+[33mservice_main            |[0m 2023-05-23T21:16:28.498914812Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 787, in urlopen
+[33mservice_main            |[0m 2023-05-23T21:16:28.498924793Z     retries = retries.increment(
+[33mservice_main            |[0m 2023-05-23T21:16:28.499129932Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/util/retry.py", line 592, in increment
+[33mservice_main            |[0m 2023-05-23T21:16:28.499139271Z     raise MaxRetryError(_pool, url, error or ResponseError(cause))
+[33mservice_main            |[0m 2023-05-23T21:16:28.499198365Z urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d100ba7a0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[33mservice_main            |[0m 2023-05-23T21:16:28.499208232Z 
+[33mservice_main            |[0m 2023-05-23T21:16:28.499211512Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:28.499214616Z 
+[33mservice_main            |[0m 2023-05-23T21:16:28.499507213Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:28.499521195Z   File "/./service_main.py", line 78, in get_author
+[33mservice_main            |[0m 2023-05-23T21:16:28.499524822Z     response_author = requests.get("http://" + service_author + "/authors/" + str(id))
+[33mservice_main            |[0m 2023-05-23T21:16:28.499528185Z   File "/usr/local/lib/python3.10/dist-packages/requests/api.py", line 73, in get
+[33mservice_main            |[0m 2023-05-23T21:16:28.499531280Z     return request("get", url, params=params, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:28.499534380Z   File "/usr/local/lib/python3.10/dist-packages/requests/api.py", line 59, in request
+[33mservice_main            |[0m 2023-05-23T21:16:28.499537478Z     return session.request(method=method, url=url, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:28.499540489Z   File "/usr/local/lib/python3.10/dist-packages/requests/sessions.py", line 587, in request
+[33mservice_main            |[0m 2023-05-23T21:16:28.499543565Z     resp = self.send(prep, **send_kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:28.499546441Z   File "/usr/local/lib/python3.10/dist-packages/requests/sessions.py", line 701, in send
+[33mservice_main            |[0m 2023-05-23T21:16:28.499549519Z     r = adapter.send(request, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:28.499598880Z   File "/usr/local/lib/python3.10/dist-packages/requests/adapters.py", line 565, in send
+[33mservice_main            |[0m 2023-05-23T21:16:28.499607884Z     raise ConnectionError(e, request=request)
+[33mservice_main            |[0m 2023-05-23T21:16:28.499623610Z requests.exceptions.ConnectionError: HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d100ba7a0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[33mservice_main            |[0m 2023-05-23T21:16:28.499628427Z 
+[33mservice_main            |[0m 2023-05-23T21:16:28.499631302Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:28.499634279Z 
+[33mservice_main            |[0m 2023-05-23T21:16:28.499637121Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:28.500042852Z   File "/usr/lib/python3.10/logging/__init__.py", line 1100, in emit
+[33mservice_main            |[0m 2023-05-23T21:16:28.500063133Z     msg = self.format(record)
+[33mservice_main            |[0m 2023-05-23T21:16:28.500067987Z   File "/usr/lib/python3.10/logging/__init__.py", line 943, in format
+[33mservice_main            |[0m 2023-05-23T21:16:28.500071660Z     return fmt.format(record)
+[33mservice_main            |[0m 2023-05-23T21:16:28.501130319Z   File "/usr/lib/python3.10/logging/__init__.py", line 678, in format
+[33mservice_main            |[0m 2023-05-23T21:16:28.501273342Z     record.message = record.getMessage()
+[33mservice_main            |[0m 2023-05-23T21:16:28.501281033Z   File "/usr/lib/python3.10/logging/__init__.py", line 368, in getMessage
+[33mservice_main            |[0m 2023-05-23T21:16:28.501286131Z     msg = msg % self.args
+[33mservice_main            |[0m 2023-05-23T21:16:28.501290632Z TypeError: not all arguments converted during string formatting
+[33mservice_main            |[0m 2023-05-23T21:16:28.501295551Z Call stack:
+[33mservice_main            |[0m 2023-05-23T21:16:28.502363858Z   File "<string>", line 1, in <module>
+[33mservice_main            |[0m 2023-05-23T21:16:28.502390531Z   File "/usr/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+[33mservice_main            |[0m 2023-05-23T21:16:28.502481537Z     exitcode = _main(fd, parent_sentinel)
+[33mservice_main            |[0m 2023-05-23T21:16:28.502496770Z   File "/usr/lib/python3.10/multiprocessing/spawn.py", line 129, in _main
+[33mservice_main            |[0m 2023-05-23T21:16:28.502504262Z     return self._bootstrap(parent_sentinel)
+[33mservice_main            |[0m 2023-05-23T21:16:28.502510116Z   File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+[33mservice_main            |[0m 2023-05-23T21:16:28.502516067Z     self.run()
+[33mservice_main            |[0m 2023-05-23T21:16:28.502521523Z   File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+[33mservice_main            |[0m 2023-05-23T21:16:28.502564984Z     self._target(*self._args, **self._kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:28.502912130Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/_subprocess.py", line 76, in subprocess_started
+[33mservice_main            |[0m 2023-05-23T21:16:28.502933926Z     target(sockets=sockets)
+[33mservice_main            |[0m 2023-05-23T21:16:28.503099590Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/server.py", line 60, in run
+[33mservice_main            |[0m 2023-05-23T21:16:28.503114584Z     return asyncio.run(self.serve(sockets=sockets))
+[33mservice_main            |[0m 2023-05-23T21:16:28.503121450Z   File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+[33mservice_main            |[0m 2023-05-23T21:16:28.503219282Z     return loop.run_until_complete(main)
+[33mservice_main            |[0m 2023-05-23T21:16:28.503231142Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete
+[33mservice_main            |[0m 2023-05-23T21:16:28.503257567Z     self.run_forever()
+[33mservice_main            |[0m 2023-05-23T21:16:28.503264206Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 600, in run_forever
+[33mservice_main            |[0m 2023-05-23T21:16:28.503269398Z     self._run_once()
+[33mservice_main            |[0m 2023-05-23T21:16:28.503273886Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 1896, in _run_once
+[33mservice_main            |[0m 2023-05-23T21:16:28.503279020Z     handle._run()
+[33mservice_main            |[0m 2023-05-23T21:16:28.503283603Z   File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+[33mservice_main            |[0m 2023-05-23T21:16:28.503288941Z     self._context.run(self._callback, *self._args)
+[33mservice_main            |[0m 2023-05-23T21:16:28.503295006Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/httptools_impl.py", line 419, in run_asgi
+[33mservice_main            |[0m 2023-05-23T21:16:28.503301236Z     result = await app(  # type: ignore[func-returns-value]
+[33mservice_main            |[0m 2023-05-23T21:16:28.503306487Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:28.503311430Z     return await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:28.503316143Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/applications.py", line 271, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:28.503321116Z     await super().__call__(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:28.503325742Z   File "/usr/local/lib/python3.10/dist-packages/starlette/applications.py", line 118, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:28.503330546Z     await self.middleware_stack(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:28.503335268Z   File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 162, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:28.503340182Z     await self.app(scope, receive, _send)
+[33mservice_main            |[0m 2023-05-23T21:16:28.503344574Z   File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/exceptions.py", line 68, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:28.503349111Z     await self.app(scope, receive, sender)
+[33mservice_main            |[0m 2023-05-23T21:16:28.503502344Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:28.503516357Z     await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:28.503528525Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 706, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:28.503543607Z     await route.handle(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:28.503645109Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 276, in handle
+[33mservice_main            |[0m 2023-05-23T21:16:28.503657322Z     await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:28.503663500Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 66, in app
+[33mservice_main            |[0m 2023-05-23T21:16:28.503669417Z     response = await func(request)
+[33mservice_main            |[0m 2023-05-23T21:16:28.503674650Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 237, in app
+[33mservice_main            |[0m 2023-05-23T21:16:28.503679933Z     raw_response = await run_endpoint_function(
+[33mservice_main            |[0m 2023-05-23T21:16:28.503684847Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 163, in run_endpoint_function
+[33mservice_main            |[0m 2023-05-23T21:16:28.503754819Z     return await dependant.call(**values)
+[33mservice_main            |[0m 2023-05-23T21:16:28.503790170Z   File "/./service_main.py", line 110, in read_presentation
+[33mservice_main            |[0m 2023-05-23T21:16:28.503800989Z     author = get_author(presentation.author_id)
+[33mservice_main            |[0m 2023-05-23T21:16:28.503807063Z   File "/./cbhomemade.py", line 34, in wrapper
+[33mservice_main            |[0m 2023-05-23T21:16:28.503812602Z     result = self.func(*args, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:28.503818032Z   File "/./service_main.py", line 80, in get_author
+[33mservice_main            |[0m 2023-05-23T21:16:28.503823554Z     logging.warning(">>> Error Connecting:", errc)
+[33mservice_main            |[0m 2023-05-23T21:16:28.503829550Z Message: '>>> Error Connecting:'
+[33mservice_main            |[0m 2023-05-23T21:16:28.503835170Z Arguments: (ConnectionError(MaxRetryError("HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d100ba7a0>: Failed to establish a new connection: [Errno -2] Name or service not known'))")),)
+[33mservice_main            |[0m 2023-05-23T21:16:28.504522914Z Failed attempt count: 5, switching to OPEN
+[33mservice_main            |[0m 2023-05-23T21:16:28.504548199Z INFO:     172.18.0.1:57620 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 500 Internal Server Error
+[33mservice_main            |[0m 2023-05-23T21:16:29.167881247Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 5
+[33mservice_main            |[0m 2023-05-23T21:16:29.186490773Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:29.535811189Z CRITICAL:root:Circuit OPEN
+[33mservice_main            |[0m 2023-05-23T21:16:29.536689332Z INFO:     172.18.0.1:57626 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 200 OK
+[33mservice_main            |[0m 2023-05-23T21:16:30.198132892Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 5
+[33mservice_main            |[0m 2023-05-23T21:16:30.227206238Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:31.230317676Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 5
+[33mservice_main            |[0m 2023-05-23T21:16:31.247330325Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:32.251833434Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 5
+[33mservice_main            |[0m 2023-05-23T21:16:32.269698148Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:32.512543992Z CRITICAL:root:Circuit OPEN
+[33mservice_main            |[0m 2023-05-23T21:16:32.514087064Z INFO:     172.18.0.1:57632 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 200 OK
+[33mservice_main            |[0m 2023-05-23T21:16:33.275430086Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 5
+[33mservice_main            |[0m 2023-05-23T21:16:33.284671266Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:33.825955901Z CRITICAL:root:Circuit OPEN
+[33mservice_main            |[0m 2023-05-23T21:16:33.827033737Z INFO:     172.18.0.1:57638 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 200 OK
+[33mservice_main            |[0m 2023-05-23T21:16:34.296229197Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 5
+[33mservice_main            |[0m 2023-05-23T21:16:34.313339823Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:35.323703004Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 5
+[33mservice_main            |[0m 2023-05-23T21:16:35.340176069Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:36.343887728Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 5
+[33mservice_main            |[0m 2023-05-23T21:16:36.362134193Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:37.372299899Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 5
+[33mservice_main            |[0m 2023-05-23T21:16:37.389290083Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:38.394097573Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 5
+[33mservice_main            |[0m 2023-05-23T21:16:38.411157095Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:39.415457217Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 5
+[33mservice_main            |[0m 2023-05-23T21:16:39.429958387Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:39.888445940Z --- Logging error ---
+[33mservice_main            |[0m 2023-05-23T21:16:39.889501758Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:39.889783197Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 174, in _new_conn
+[33mservice_main            |[0m 2023-05-23T21:16:39.889801671Z     conn = connection.create_connection(
+[33mservice_main            |[0m 2023-05-23T21:16:39.889806741Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/util/connection.py", line 72, in create_connection
+[33mservice_main            |[0m 2023-05-23T21:16:39.889810837Z     for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+[33mservice_main            |[0m 2023-05-23T21:16:39.889894919Z   File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+[33mservice_main            |[0m 2023-05-23T21:16:39.889915245Z     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+[33mservice_main            |[0m 2023-05-23T21:16:39.890465283Z socket.gaierror: [Errno -2] Name or service not known
+[33mservice_main            |[0m 2023-05-23T21:16:39.890526618Z 
+[33mservice_main            |[0m 2023-05-23T21:16:39.890591565Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:39.890600376Z 
+[33mservice_main            |[0m 2023-05-23T21:16:39.890606338Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:39.890794175Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 703, in urlopen
+[33mservice_main            |[0m 2023-05-23T21:16:39.890810730Z     httplib_response = self._make_request(
+[33mservice_main            |[0m 2023-05-23T21:16:39.891026912Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 398, in _make_request
+[33mservice_main            |[0m 2023-05-23T21:16:39.891042251Z     conn.request(method, url, **httplib_request_kw)
+[33mservice_main            |[0m 2023-05-23T21:16:39.891217298Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 239, in request
+[33mservice_main            |[0m 2023-05-23T21:16:39.891233328Z     super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+[33mservice_main            |[0m 2023-05-23T21:16:39.891404611Z   File "/usr/lib/python3.10/http/client.py", line 1282, in request
+[33mservice_main            |[0m 2023-05-23T21:16:39.891456601Z     self._send_request(method, url, body, headers, encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:39.891798165Z   File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+[33mservice_main            |[0m 2023-05-23T21:16:39.891873015Z     self.endheaders(body, encode_chunked=encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:39.891910147Z   File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+[33mservice_main            |[0m 2023-05-23T21:16:39.891950630Z     self._send_output(message_body, encode_chunked=encode_chunked)
+[33mservice_main            |[0m 2023-05-23T21:16:39.891990669Z   File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+[33mservice_main            |[0m 2023-05-23T21:16:39.891999962Z     self.send(msg)
+[33mservice_main            |[0m 2023-05-23T21:16:39.892039588Z   File "/usr/lib/python3.10/http/client.py", line 975, in send
+[33mservice_main            |[0m 2023-05-23T21:16:39.892054506Z     self.connect()
+[33mservice_main            |[0m 2023-05-23T21:16:39.892061457Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 205, in connect
+[33mservice_main            |[0m 2023-05-23T21:16:39.892068007Z     conn = self._new_conn()
+[33mservice_main            |[0m 2023-05-23T21:16:39.892074148Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connection.py", line 186, in _new_conn
+[33mservice_main            |[0m 2023-05-23T21:16:39.892080255Z     raise NewConnectionError(
+[33mservice_main            |[0m 2023-05-23T21:16:39.892141822Z urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3d100b9750>: Failed to establish a new connection: [Errno -2] Name or service not known
+[33mservice_main            |[0m 2023-05-23T21:16:39.892155143Z 
+[33mservice_main            |[0m 2023-05-23T21:16:39.892161694Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:39.892167204Z 
+[33mservice_main            |[0m 2023-05-23T21:16:39.892229706Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:39.892422095Z   File "/usr/local/lib/python3.10/dist-packages/requests/adapters.py", line 489, in send
+[33mservice_main            |[0m 2023-05-23T21:16:39.892436185Z     resp = conn.urlopen(
+[33mservice_main            |[0m 2023-05-23T21:16:39.892549234Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py", line 787, in urlopen
+[33mservice_main            |[0m 2023-05-23T21:16:39.892563058Z     retries = retries.increment(
+[33mservice_main            |[0m 2023-05-23T21:16:39.892932787Z   File "/usr/local/lib/python3.10/dist-packages/urllib3/util/retry.py", line 592, in increment
+[33mservice_main            |[0m 2023-05-23T21:16:39.892952226Z     raise MaxRetryError(_pool, url, error or ResponseError(cause))
+[33mservice_main            |[0m 2023-05-23T21:16:39.892959666Z urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d100b9750>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[33mservice_main            |[0m 2023-05-23T21:16:39.892967497Z 
+[33mservice_main            |[0m 2023-05-23T21:16:39.892973093Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:39.892978949Z 
+[33mservice_main            |[0m 2023-05-23T21:16:39.893243568Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:39.893280875Z   File "/./service_main.py", line 78, in get_author
+[33mservice_main            |[0m 2023-05-23T21:16:39.893291257Z     response_author = requests.get("http://" + service_author + "/authors/" + str(id))
+[33mservice_main            |[0m 2023-05-23T21:16:39.893539121Z   File "/usr/local/lib/python3.10/dist-packages/requests/api.py", line 73, in get
+[33mservice_main            |[0m 2023-05-23T21:16:39.893554864Z     return request("get", url, params=params, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:39.894232025Z   File "/usr/local/lib/python3.10/dist-packages/requests/api.py", line 59, in request
+[33mservice_main            |[0m 2023-05-23T21:16:39.894251582Z     return session.request(method=method, url=url, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:39.894667523Z   File "/usr/local/lib/python3.10/dist-packages/requests/sessions.py", line 587, in request
+[33mservice_main            |[0m 2023-05-23T21:16:39.894757761Z     resp = self.send(prep, **send_kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:39.894767005Z   File "/usr/local/lib/python3.10/dist-packages/requests/sessions.py", line 701, in send
+[33mservice_main            |[0m 2023-05-23T21:16:39.894772647Z     r = adapter.send(request, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:39.894781440Z   File "/usr/local/lib/python3.10/dist-packages/requests/adapters.py", line 565, in send
+[33mservice_main            |[0m 2023-05-23T21:16:39.894798898Z     raise ConnectionError(e, request=request)
+[33mservice_main            |[0m 2023-05-23T21:16:39.895219179Z requests.exceptions.ConnectionError: HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d100b9750>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+[33mservice_main            |[0m 2023-05-23T21:16:39.895396017Z 
+[33mservice_main            |[0m 2023-05-23T21:16:39.895412662Z During handling of the above exception, another exception occurred:
+[33mservice_main            |[0m 2023-05-23T21:16:39.895420034Z 
+[33mservice_main            |[0m 2023-05-23T21:16:39.895744761Z Traceback (most recent call last):
+[33mservice_main            |[0m 2023-05-23T21:16:39.895760924Z   File "/usr/lib/python3.10/logging/__init__.py", line 1100, in emit
+[33mservice_main            |[0m 2023-05-23T21:16:39.895767780Z     msg = self.format(record)
+[33mservice_main            |[0m 2023-05-23T21:16:39.895798157Z   File "/usr/lib/python3.10/logging/__init__.py", line 943, in format
+[33mservice_main            |[0m 2023-05-23T21:16:39.895808133Z     return fmt.format(record)
+[33mservice_main            |[0m 2023-05-23T21:16:39.895813812Z   File "/usr/lib/python3.10/logging/__init__.py", line 678, in format
+[33mservice_main            |[0m 2023-05-23T21:16:39.895819421Z     record.message = record.getMessage()
+[33mservice_main            |[0m 2023-05-23T21:16:39.895824492Z   File "/usr/lib/python3.10/logging/__init__.py", line 368, in getMessage
+[33mservice_main            |[0m 2023-05-23T21:16:39.895829467Z     msg = msg % self.args
+[33mservice_main            |[0m 2023-05-23T21:16:39.895848055Z TypeError: not all arguments converted during string formatting
+[33mservice_main            |[0m 2023-05-23T21:16:39.896159721Z Call stack:
+[33mservice_main            |[0m 2023-05-23T21:16:39.897097720Z   File "<string>", line 1, in <module>
+[33mservice_main            |[0m 2023-05-23T21:16:39.897119383Z   File "/usr/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+[33mservice_main            |[0m 2023-05-23T21:16:39.897123485Z     exitcode = _main(fd, parent_sentinel)
+[33mservice_main            |[0m 2023-05-23T21:16:39.897126738Z   File "/usr/lib/python3.10/multiprocessing/spawn.py", line 129, in _main
+[33mservice_main            |[0m 2023-05-23T21:16:39.897130073Z     return self._bootstrap(parent_sentinel)
+[33mservice_main            |[0m 2023-05-23T21:16:39.897331786Z   File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+[33mservice_main            |[0m 2023-05-23T21:16:39.897342754Z     self.run()
+[33mservice_main            |[0m 2023-05-23T21:16:39.897346354Z   File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+[33mservice_main            |[0m 2023-05-23T21:16:39.897349704Z     self._target(*self._args, **self._kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:39.897352790Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/_subprocess.py", line 76, in subprocess_started
+[33mservice_main            |[0m 2023-05-23T21:16:39.897374369Z     target(sockets=sockets)
+[33mservice_main            |[0m 2023-05-23T21:16:39.897378087Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/server.py", line 60, in run
+[33mservice_main            |[0m 2023-05-23T21:16:39.897381386Z     return asyncio.run(self.serve(sockets=sockets))
+[33mservice_main            |[0m 2023-05-23T21:16:39.897625345Z   File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+[33mservice_main            |[0m 2023-05-23T21:16:39.897755562Z     return loop.run_until_complete(main)
+[33mservice_main            |[0m 2023-05-23T21:16:39.897768041Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete
+[33mservice_main            |[0m 2023-05-23T21:16:39.897775266Z     self.run_forever()
+[33mservice_main            |[0m 2023-05-23T21:16:39.897783436Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 600, in run_forever
+[33mservice_main            |[0m 2023-05-23T21:16:39.897790038Z     self._run_once()
+[33mservice_main            |[0m 2023-05-23T21:16:39.897795647Z   File "/usr/lib/python3.10/asyncio/base_events.py", line 1896, in _run_once
+[33mservice_main            |[0m 2023-05-23T21:16:39.897849893Z     handle._run()
+[33mservice_main            |[0m 2023-05-23T21:16:39.897857707Z   File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+[33mservice_main            |[0m 2023-05-23T21:16:39.897863970Z     self._context.run(self._callback, *self._args)
+[33mservice_main            |[0m 2023-05-23T21:16:39.897871264Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/httptools_impl.py", line 419, in run_asgi
+[33mservice_main            |[0m 2023-05-23T21:16:39.897877749Z     result = await app(  # type: ignore[func-returns-value]
+[33mservice_main            |[0m 2023-05-23T21:16:39.897940534Z   File "/usr/local/lib/python3.10/dist-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:39.897980870Z     return await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:39.898091715Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/applications.py", line 271, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:39.898107057Z     await super().__call__(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:39.898114544Z   File "/usr/local/lib/python3.10/dist-packages/starlette/applications.py", line 118, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:39.898216583Z     await self.middleware_stack(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:39.898287577Z   File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/errors.py", line 162, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:39.898299095Z     await self.app(scope, receive, _send)
+[33mservice_main            |[0m 2023-05-23T21:16:39.898305723Z   File "/usr/local/lib/python3.10/dist-packages/starlette/middleware/exceptions.py", line 68, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:39.898311643Z     await self.app(scope, receive, sender)
+[33mservice_main            |[0m 2023-05-23T21:16:39.898545047Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:39.898568239Z     await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:39.898598325Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 706, in __call__
+[33mservice_main            |[0m 2023-05-23T21:16:39.898620452Z     await route.handle(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:39.898630103Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 276, in handle
+[33mservice_main            |[0m 2023-05-23T21:16:39.898653592Z     await self.app(scope, receive, send)
+[33mservice_main            |[0m 2023-05-23T21:16:39.898660859Z   File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 66, in app
+[33mservice_main            |[0m 2023-05-23T21:16:39.898725771Z     response = await func(request)
+[33mservice_main            |[0m 2023-05-23T21:16:39.898738622Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 237, in app
+[33mservice_main            |[0m 2023-05-23T21:16:39.898745513Z     raw_response = await run_endpoint_function(
+[33mservice_main            |[0m 2023-05-23T21:16:39.898751613Z   File "/usr/local/lib/python3.10/dist-packages/fastapi/routing.py", line 163, in run_endpoint_function
+[33mservice_main            |[0m 2023-05-23T21:16:39.898757731Z     return await dependant.call(**values)
+[33mservice_main            |[0m 2023-05-23T21:16:39.898764209Z   File "/./service_main.py", line 110, in read_presentation
+[33mservice_main            |[0m 2023-05-23T21:16:39.898770145Z     author = get_author(presentation.author_id)
+[33mservice_main            |[0m 2023-05-23T21:16:39.898775693Z   File "/./cbhomemade.py", line 34, in wrapper
+[33mservice_main            |[0m 2023-05-23T21:16:39.898781608Z     result = self.func(*args, **kwargs)
+[33mservice_main            |[0m 2023-05-23T21:16:39.898787362Z   File "/./service_main.py", line 80, in get_author
+[33mservice_main            |[0m 2023-05-23T21:16:39.898793270Z     logging.warning(">>> Error Connecting:", errc)
+[33mservice_main            |[0m 2023-05-23T21:16:39.898800273Z Message: '>>> Error Connecting:'
+[33mservice_main            |[0m 2023-05-23T21:16:39.898806499Z Arguments: (ConnectionError(MaxRetryError("HTTPConnectionPool(host='service_author', port=8081): Max retries exceeded with url: /authors/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3d100b9750>: Failed to establish a new connection: [Errno -2] Name or service not known'))")),)
+[33mservice_main            |[0m 2023-05-23T21:16:39.899413830Z Timeout elapsed, retrying...
+[33mservice_main            |[0m 2023-05-23T21:16:39.899433998Z Failed attempt count: 6, switching to OPEN
+[33mservice_main            |[0m 2023-05-23T21:16:39.899440423Z INFO:     172.18.0.1:57644 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 500 Internal Server Error
+[33mservice_main            |[0m 2023-05-23T21:16:40.441311132Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 6
+[33mservice_main            |[0m 2023-05-23T21:16:40.459918733Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:41.465963665Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 6
+[33mservice_main            |[0m 2023-05-23T21:16:41.482713847Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:42.418302576Z CRITICAL:root:Circuit OPEN
+[33mservice_main            |[0m 2023-05-23T21:16:42.419265792Z INFO:     172.18.0.1:57650 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 200 OK
+[33mservice_main            |[0m 2023-05-23T21:16:42.486555768Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 6
+[33mservice_main            |[0m 2023-05-23T21:16:42.503801128Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:43.507961776Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 6
+[33mservice_main            |[0m 2023-05-23T21:16:43.532456733Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:43.623314686Z CRITICAL:root:Circuit OPEN
+[33mservice_main            |[0m 2023-05-23T21:16:43.624666852Z INFO:     172.18.0.1:57656 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 200 OK
+[33mservice_main            |[0m 2023-05-23T21:16:44.535890265Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 6
+[33mservice_main            |[0m 2023-05-23T21:16:44.554786618Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:45.565899747Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 6
+[33mservice_main            |[0m 2023-05-23T21:16:45.575006529Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:46.590143839Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 6
+[33mservice_main            |[0m 2023-05-23T21:16:46.608882828Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:47.668518428Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 6
+[33mservice_main            |[0m 2023-05-23T21:16:47.700272001Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:48.704125386Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 6
+[33mservice_main            |[0m 2023-05-23T21:16:48.728149851Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:49.732145307Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 6
+[33mservice_main            |[0m 2023-05-23T21:16:49.866011986Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:50.863798574Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 6
+[33mservice_main            |[0m 2023-05-23T21:16:50.893914415Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:51.897517824Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 6
+[33mservice_main            |[0m 2023-05-23T21:16:51.924304276Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:52.929565661Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 6
+[33mservice_main            |[0m 2023-05-23T21:16:52.962534523Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:53.968417172Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 6
+[33mservice_main            |[0m 2023-05-23T21:16:54.006347375Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:55.022189038Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 6
+[33mservice_main            |[0m 2023-05-23T21:16:55.042348906Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:56.071005333Z WARNING:root:Circuit "test-08" is "Status.OPEN", failures: 6
+[33mservice_main            |[0m 2023-05-23T21:16:56.115841935Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:56.354251577Z Timeout elapsed, retrying...
+[33mservice_main            |[0m 2023-05-23T21:16:56.354300445Z Moore
+[33mservice_main            |[0m 2023-05-23T21:16:56.354351764Z Ok. Going back to CLOSED
+[33mservice_main            |[0m 2023-05-23T21:16:56.354380376Z INFO:     172.18.0.1:57662 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 200 OK
+[33mservice_main            |[0m 2023-05-23T21:16:57.115484057Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:57.140903345Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:57.752836741Z Moore
+[33mservice_main            |[0m 2023-05-23T21:16:57.752920285Z INFO:     172.18.0.1:57670 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 200 OK
+[33mservice_main            |[0m 2023-05-23T21:16:58.144268131Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:58.191201619Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:16:59.055883640Z Moore
+[33mservice_main            |[0m 2023-05-23T21:16:59.055934782Z INFO:     172.18.0.1:57678 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 200 OK
+[33mservice_main            |[0m 2023-05-23T21:16:59.195327903Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:16:59.216785634Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:17:00.219937882Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:17:00.252227221Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:17:00.526002436Z Moore
+[33mservice_main            |[0m 2023-05-23T21:17:00.526030136Z INFO:     172.18.0.1:57686 - "GET /presentationsAndAuthor/First%20Presentation HTTP/1.1" 200 OK
+[33mservice_main            |[0m 2023-05-23T21:17:01.258926489Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:17:01.296245654Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:17:02.301783916Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:17:02.329079997Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:17:03.318233133Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:17:03.346975488Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:17:04.379354743Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:17:04.444210668Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:17:05.463274385Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:17:05.493247911Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:17:06.507334153Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:17:06.533967870Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:17:07.539293061Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:17:07.558533328Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:17:08.571218733Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:17:08.599225744Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:17:09.602497025Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:17:09.627876084Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:17:10.634759410Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:17:10.683100483Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:17:11.688757878Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:17:11.720755016Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:17:12.730920644Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:17:12.769971759Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:17:13.774197138Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:17:13.814676108Z WARNING:root:
+[33mservice_main            |[0m 2023-05-23T21:17:14.837215178Z WARNING:root:Circuit "test-08" is "Status.CLOSED", failures: 0
+[33mservice_main            |[0m 2023-05-23T21:17:14.877478221Z WARNING:root:
